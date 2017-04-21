@@ -1,0 +1,74 @@
+Skoltesamisk:
+
+  â š e r t ǧ u i o p å ´
+  a s d f g h j k l ä đ '
+  ž z č c v b n m õ ǩ . 
+
+a: á, å, â, ä, æ
+g: ǧ, ǥ 
+c: ç
+z: ǯ, ʒ
+n: ŋ
+k: ǩ
+d: đ
+o: õ, ø, ö
+ǧ: y
+t: ŧ
+â: q
+š: w
+č: x
+
+!!NB These statistics are out of date or based on incorrect characters.
+The questionable missrepresentation for characters can be seen in the most frequent.
+! Accute Accent U+00B4 does not exist in the received alphabet at (freq:11442)
+!! Change to Modifier Letter Prime U+02B9
+! Right Single Quotation Mark U+2019 does not exist in the received alphabet at (freq:444)
+!! Change to Modifier Letter Apostrophe U+02BC
+! for pedagogical purposes we will also require the following two:
+!! Modifier Letter Vertical Line U+02CB
+!! Latin Small Letter E With Dot Below U+1EB9
+
+11442 ´
+10320 õ
+3900 ǩ
+3200 š
+2889 å
+2572 ž
+1414 đ
+1267 ǧ
+795 ǥ
+604 č
+543 ǯ
+444 ’
+350 ʹ
+324 ˊ
+196 ʒ
+180 '
+170 ŋ
+61 f
+56 á
+22 ö
+14 y
+9 w
+3 q
+
+Bokstavfrekvens:
+10000+: e t i u m a ä ´ l õ s d  
+1000+:  j n v â r k o ǩ š p z å ž g b c đ ǧ h  
+1+:     ǥ č ǯ ’ ʹ ˊ ʒ ' ŋ f á ö y w q 
+
+
+
+
+Enaresamisk:
+  á š e r t y u i o p â 
+  a s d f g h j k l ä đ
+  ž z č c v b n m , . 
+
+n:ŋ, z:ž, á:q, š:w, v:w, č:x, o:ö, t:ŧ, 
+
+Frekvens ordna frå mykje til lite, i tre grupper:
+
+10000+: i t e u l á o a s â m n j v k r d h p ä g š đ 
+1000+:  č b y c ŋ ž f 
+   1+:  z ö w ´ x ' q
