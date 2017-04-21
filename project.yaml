@@ -1,0 +1,37 @@
+internalName: sms_keyboard
+
+locales:
+  en:
+    name: &bundleName "Skolt Sami Keyboards"
+    description: "Mobile OS keyboards for the Skolt Sami language from the Divvun group at UiT."
+  nb:
+    name: "Skolt Sami tastatur"
+    description: "Mobiltastatur for Skolt Sami fra Divvun-gruppa."
+
+author: The Divvun Group, UiT Norgga árktalaš universitehta
+email: feedback@divvun.no
+
+copyright: (c) 2017 Divvun/Giellatekno/UiT
+organisation: UiT Norgga árktalaš universitehta
+
+layouts: [sms]
+
+version: 1.0
+build: 1
+
+targets:
+  android:
+    packageId: no.uit.giella.keyboards.sms
+    icon: sms-icon.pdf
+    keyStore: /Users/brendan/git/softkbdgen/test.keystore
+    keyAlias: sms_keyboard
+
+  ios: &AppleID
+    codeSignId: "iOS Development"
+    provisioningProfileId: Test
+    packageId: no.uit.giella.keyboards.sms
+    bundleName: *bundleName
+    icon:
+        90: sms-icon-small.png
+        150: sms-icon.png
+  osx: *AppleID
