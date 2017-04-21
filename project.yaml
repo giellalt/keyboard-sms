@@ -5,8 +5,8 @@ locales:
     name: &bundleName "Skolt Sami Keyboards"
     description: "Mobile OS keyboards for the Skolt Sami language from the Divvun group at UiT."
   nb:
-    name: "Skolt Sami tastatur"
-    description: "Mobiltastatur for Skolt Sami fra Divvun-gruppa."
+    name: "Skoltesamisk tastatur"
+    description: "Mobiltastatur for skoltesamisk fra Divvun-gruppa."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
