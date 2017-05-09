@@ -32,4 +32,7 @@ targets:
     packageId: no.uit.giella.keyboards.sms
     bundleName: *bundleName
     icon: images/sms-icon.png
-  osx: *AppleID
+  osx:
+    <<: *AppleID
+    icon: images/sms-icon.png
+    codeSignId: "my-test-installer"
