@@ -1,21 +1,31 @@
-There is an existing Skolt Sami keyboard for Windows (made by Timothy
-Feist), with the following layout:
+There is an existing Skolt Sami keyboard for Windows and macOS made by Timothy
+Feist, with the following layout:
 
 Normal:
 
-[Skolt.jpg]
+[TimFeistSMS/Skolt.jpg]
 
 Shift:
 
-[SkoltShft.jpg]
+[TimFeistSMS/SkoltShft.jpg]
 
 AltGr:
 
-[SkoltAltGr.jpg]
+[TimFeistSMS/SkoltAltGr.jpg]
 
 AltGr+Shift:
 
-[SkoltShftAltGr.jpg]
+[TimFeistSMS/SkoltShftAltGr.jpg]
 
 The keyboard was initially made for his own personal use, but is now also used
 by language community members.
+
+For those wanting to continue to use it, it can be downloaded here:
+* [Windows|TimFeistSMS/SMSInstallerTimFeist.zip]
+* macOS
+
+The source files are:
+* [Windows|TimFeistSMS/Koltansaame näppäimistö - source file.klc]
+* macOS
+
+(mac versions coming soon.)
