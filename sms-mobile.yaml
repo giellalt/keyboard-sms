@@ -1,4 +1,4 @@
-internalName: sms_keyboards
+internalName: sms_mobile_keyboards
 
 displayNames:
   sms: Nuõrttsää’mǩiõll
@@ -6,7 +6,7 @@ displayNames:
   fi: Koltansaame
   en: Skolt Sami
   nb: Skoltesamisk
-  no: Skoltesamisk
+  'no': Skoltesamisk
   nn: Skoltesamisk
   sv: Skoltsamiska
 
