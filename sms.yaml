@@ -10,6 +10,8 @@ displayNames:
 
 locale: sms
 
+supportedTargets: [ios, android]
+
 modes:
   mobile-default: |
     â š e r t ǧ u i o p å ʹ
