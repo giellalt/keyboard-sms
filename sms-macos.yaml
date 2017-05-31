@@ -1,4 +1,4 @@
-### Generated from fi-t-k0-osx-extended.xml on 2017-04-21 at 14:30.
+### Generated from fi-t-k0-osx-extended.xml on 2017-05-31 at 12:03.
 
 internalName: fi-t-k0-osx-extended
 
@@ -53,52 +53,11 @@ modes:
     \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
     0 \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
   # cmd+opt+caps?
-  osx-cmd+alt:
-    E00: ≤
-    E01: ©
-    E02: ™
-    E03: £
-    E04: €
-    E05: §
-    E07: "|"
-    E08: "["
-    E09: "]"
-    E10: ≈
-    E11: ±
-    E12: "`"
-    D01: •
-    D02: ","
-    D03: é
-    D05: ŧ
-    D06: µ
-    D07: ü
-    D08: ı
-    D09: œ
-    D10: þ
-    D11: ˙
-    D12: ˜
-    C01: ¯
-    C02: ß
-    C03: ð
-    C04: ƒ
-    C06: ħ
-    C07: ˝
-    C08: ª
-    C09: ł
-    C10: ö
-    C11: ä
-    C12: "'"
-    B00: €
-    B01: ÷
-    B02: đ
-    B03: ¸
-    B04: ‹
-    B05: ›
-    B06: ‘
-    B07: ’
-    B08: ‚
-    B09: …
-    B10: –
+  osx-cmd+alt: |
+    ≤ © ™ £ € § \u{0} | [ ] ≈ ± `
+    • , é \u{0} ŧ µ ü ı œ þ ˙ ˜
+    ¯ ß ð ƒ \u{0} ħ ˝ ª ł ö ä '
+    € ÷ đ ¸ ‹ › ‘ ’ ‚ … –
 
 deadKeys:
   iso-default: ['¨', '´']
