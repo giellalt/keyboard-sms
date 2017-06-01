@@ -23,7 +23,7 @@ xkb_symbols "basic" {
     key <AD04> { [          r,          R,      caron,     degree ] };
     key <AD05> { [          t,          T,      thorn,      THORN ] };
     key <AD06> { [     otilde,     Otilde,          y,          Y ] };
-    key <AD07> { [          u,          U,      U02C0,      U0309 ] };
+    key <AD07> { [          u,          U,      U02C0, decimalpoint ] };
     key <AD08> { [          i,          I,      U02BC,      U031B ] };
     key <AD09> { [          o,          O,         oe,         OE ] };
     key <AD10> { [          p,          P,   abovedot,      U0307 ] };
