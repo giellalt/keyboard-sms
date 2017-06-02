@@ -28,7 +28,7 @@ modes:
       Â Š E R T Õ U I O P Å Ŋ
       A S D F G H J K L Ö Ä Đ
       Ʒ Z Ǥ C V B N M ; : _
-  # caps
+  #" # caps
   iso-caps: |
     ʹ 1 2 3 4 5 6 7 8 9 0 + ˇ
       Â Š E R T Õ U I O P Å Ŋ
@@ -36,22 +36,22 @@ modes:
       Ʒ Z Ǥ C V B N M , . -
   # caps+shift
   iso-caps+shift: |
-    ½ ! " # ¤ % & / ( ) = ? `
-      q w e r t y u i o p å ^
-      a s d f g h j k l ö ä *
-      > z x c v b n m ; : _
-  # altR+caps? ctrl+alt+caps?
+    ʼ ! " # ¤ % & / ( ) = ? ˈ
+      â š e r t õ u i o p å ŋ
+      a s d f g h j k l ö ä đ
+      ʒ z ǥ c v b n m ; : _
+  #" # altR+caps? ctrl+alt+caps?
   iso-alt: |
-    § \u{0} @ £ $ € § { [ ] } \ \u{0}
-      â \u{0} € \u{0} ŧ \u{0} \u{0} ï õ \u{0} \u{0} ~
-      á š đ ǥ ǧ ȟ \u{0} ǩ \u{0} ø æ \u{0}
-      | ž \u{0} č ǯ ʒ ŋ µ \u{0} \u{0} \u{0}
+    § ^ @ £ $ € § { [ ] } \ ´
+      q w € \u{0} ŧ \u{0} \u{0} ï õ \u{0} \u{0} ~
+      á š đ ǥ ǧ ȟ \u{0} ǩ \u{0} ø æ '
+      ǯ ž x č ǯ ʒ ŋ µ \u{0} \u{0} \u{0}
   # altR+shift+caps? ctrl+alt+shift+caps?
   iso-alt+shift: |
-    ½ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-      Â \u{0} \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} \u{0} \u{0}
-      Á Š Đ Ǥ Ǧ Ȟ \u{0} Ǩ \u{0} Ø Æ \u{0}
-      \u{0} Ž \u{0} Č Ǯ Ʒ Ŋ \u{0} \u{0} \u{0} \u{0}
+    ½ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} < > \u{0} | `
+      Q W \u{0} \u{0} Ŧ \u{0} . Ï Õ \u{0} \u{0} ¨
+      Á Š Đ Ǥ Ǧ Ȟ \u{0} Ǩ \u{0} Ø Æ *
+      Ǯ Ž X Č Ǯ Ʒ Ŋ \u{0} \u{0} \u{0} \u{0}
   # ctrl+caps?
   iso-ctrl: |
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
@@ -60,13 +60,52 @@ modes:
           \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
 
 deadKeys:
-  iso-default: ['¨', '´']
-  iso-shift: ['^', '`']
-  iso-caps: ['¨', '´']
-  iso-caps+shift: ['^', '`']
-  iso-alt: ['~']
+  iso-default: ['ˇ']
+  iso-caps: ['ˇ']
+  iso-alt: ['~', '´', '^']
+  iso-alt+shift: ['`', '.']
 
 transforms:
+  .:
+    " ": .
+    a: ạ
+    A: Ạ
+    b: ḅ
+    B: Ḅ
+    d: ḍ
+    D: Ḍ
+    e: ẹ
+    E: Ẹ
+    h: ḥ
+    H: Ḥ
+    i: ị
+    I: Ị
+    k: ḳ
+    K: Ḳ
+    l: ḷ
+    L: Ḷ
+    m: ṃ
+    M: Ṃ
+    n: ṇ
+    N: Ṇ
+    o: ọ
+    O: Ọ
+    r: ṛ
+    R: Ṛ
+    s: ṣ
+    S: Ṣ
+    t: ṭ
+    T: Ṭ
+    u: ụ
+    U: Ụ
+    v: ṿ
+    V: Ṿ
+    w: ẉ
+    W: Ẉ
+    y: ỵ
+    Y: Ỵ
+    z: ẓ
+    Z: Ẓ
   "`":
     " ": "`"
     a: à
@@ -171,3 +210,42 @@ transforms:
     O: Õ
     u: ũ
     U: Ũ
+  ˇ:
+    " ": ˇ
+    a: ǎ
+    A: Ǎ
+    c: č
+    C: Č
+    d: ď
+    D: Ď
+    e: ě
+    E: Ě
+    g: ǧ
+    G: Ǧ
+    h: ȟ
+    H: Ȟ
+    i: ǐ
+    I: Ǐ
+    j: ǰ
+    k: ǩ
+    K: Ǩ
+    l: ľ
+    L: Ľ
+    n: ň
+    N: Ň
+    o: ǒ
+    O: Ǒ
+    r: ř
+    R: Ř
+    s: š
+    S: Š
+    t: ť
+    T: Ť
+    u: ǔ
+    U: Ǔ
+    v: ǚ
+    V: Ǚ
+    z: ž
+    Z: Ž
+    ʒ: ǯ
+    Ʒ: Ǯ
