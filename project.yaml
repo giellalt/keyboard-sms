@@ -1,4 +1,4 @@
-internalName: sms_keyboard
+internalName: sms
 
 locales:
   en:
@@ -29,7 +29,7 @@ targets:
   ios: &AppleID
     codeSignId: "iOS Development"
     provisioningProfileId: Test
-    packageId: no.uit.giella.keyboards.sms
+    packageId: no.uit.giella
     bundleName: *bundleName
     icon: images/sms-icon.png
   osx:
