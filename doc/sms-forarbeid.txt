@@ -56,19 +56,3 @@ Bokstavfrekvens:
 10000+: e t i u m a ä ´ l õ s d  
 1000+:  j n v â r k o ǩ š p z å ž g b c đ ǧ h  
 1+:     ǥ č ǯ ’ ʹ ˊ ʒ ' ŋ f á ö y w q 
-
-
-
-
-Enaresamisk:
-  á š e r t y u i o p â 
-  a s d f g h j k l ä đ
-  ž z č c v b n m , . 
-
-n:ŋ, z:ž, á:q, š:w, v:w, č:x, o:ö, t:ŧ, 
-
-Frekvens ordna frå mykje til lite, i tre grupper:
-
-10000+: i t e u l á o a s â m n j v k r d h p ä g š đ 
-1000+:  č b y c ŋ ž f 
-   1+:  z ö w ´ x ' q
