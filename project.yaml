@@ -22,7 +22,7 @@ build: 1
 targets:
   android:
     packageId: no.uit.giella.keyboards.sms
-    icon: images/sms-icon.pdf
+    icon: images/sms-icon.png
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
     keyAlias: sms_keyboard
 
