@@ -15,6 +15,10 @@ locale: sms
 
 supportedTargets: [win, x11, svg]
 
+targets:
+  win:
+    locale: sms-Latn-FI
+
 modes:
   # default
   iso-default: |
