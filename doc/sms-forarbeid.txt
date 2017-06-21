@@ -18,8 +18,6 @@ t: ŧ
 š: w
 č: x
 
-!!NB These statistics are out of date or based on incorrect characters.
-The questionable missrepresentation for characters can be seen in the most frequent.
 ! Accute Accent U+00B4 does not exist in the received alphabet at (freq:11442)
 !! Change to Modifier Letter Prime U+02B9
 ! Right Single Quotation Mark U+2019 does not exist in the received alphabet at (freq:444)
@@ -28,6 +26,66 @@ The questionable missrepresentation for characters can be seen in the most frequ
 !! Modifier Letter Vertical Line U+02CB
 !! Latin Small Letter E With Dot Below U+1EB9
 
+!! Skolt Sami translation of Ulla Aikio-Puoskari, 2016
+!! words = 20028
+!! characters = 217042
+12109 t
+10619 i
+10045 e
+8868 a
+8860 l
+8073 õ
+7991 m
+7951 s
+7181 u
+7162 ʹ
+7127 ä
+5561 n
+5527 d
+5231 j
+4421 r
+4005 k
+3869 o
+3498 â
+3417 v
+3178 ǩ
+2053 p
+1862 š
+1750 z
+1480 ž
+1383 g
+1345 å
+1032 h
+ 848 đ
+ 663 b
+ 591 ǥ
+ 506 ʼ
+ 491 č
+ 464 c
+ 449 ǧ
+ 312 ŋ
+ 260 á
+ 245 w
+ 241 f
+ 198 ǯ
+ 121 y
+  46 ö
+  28 ø
+  26 ʒ
+   8 æ
+   7 x
+   4 ï
+   2 q
+   1 ŧ
+   1 ō
+
+
+
+
+
+
+!!NB These statistics are out of date or based on incorrect characters.
+The questionable missrepresentation for characters can be seen in the most frequent.
 11442 ´
 10320 õ
 3900 ǩ
