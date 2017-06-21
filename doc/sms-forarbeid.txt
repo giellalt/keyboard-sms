@@ -79,7 +79,10 @@ t: ŧ
    1 ŧ
    1 ō
 
-
+Bokstavfrekvens:
+7000+: t i e a l õ m s u ʹ ä 
+1000+: n d j r k o â v ǩ p š z ž g å h
+1+: đ b ǥ ʼ č c ǧ ŋ á w f ǯ y ö ø ʒ æ x ï q ŧ ō
 
 
 
