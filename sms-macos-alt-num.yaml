@@ -1,15 +1,15 @@
 ### Generated from fi-t-k0-osx-extended.xml on 2017-05-31 at 12:03.
-internalName: sms_macos_in_use
+internalName: sms_macos_alt_num
 
 displayNames:
-  sms: Nuõrttsääʹmǩiõll (in use)
-  se: Nuortalašsámegiella (in use)
-  fi: Koltansaame (in use)
-  en: Skolt Sami (in use)
-  nb: Skoltesamisk (in use)
-  'no': Skoltesamisk (in use)
-  nn: Skoltesamisk (in use)
-  sv: Skoltsamiska (in use)
+  sms: Nuõrttsääʹmǩiõll (alt num)
+  se: Nuortalašsámegiella (alt num)
+  fi: Koltansaame (alt num)
+  en: Skolt Sami (alt num)
+  nb: Skoltesamisk (alt num)
+  'no': Skoltesamisk (alt num)
+  nn: Skoltesamisk (alt num)
+  sv: Skoltsamiska (alt num)
 
 locale: sms
 
@@ -18,31 +18,31 @@ supportedTargets: [osx, x11, svg]
 modes:
   # default
   iso-default: |
-    ǯ 1 2 ǩ ǥ ǧ õ ž 8 9 0 + ´
+    ʹ ʒ ǯ ǩ ǥ ǧ õ ž [ ] 0 + ´
       â š e r t đ u i o p å ¨
       a s d f g h j k l ŋ ä '
     < z č c v b n m , . -
   # shift+caps?
   iso-shift: |
-    Ǯ ! " Ǩ Ǥ Ǧ Õ Ž ( ) = ? `
+    ʼ Ʒ Ǯ Ǩ Ǥ Ǧ Õ Ž ( ) = ? `
       Â Š E R T Đ U I O P Å ^
       A S D F G H J K L Ŋ Ä *
     > Z Č C V B N M ; : _
   #" # caps
   iso-caps: |
-    Ǯ ! " Ǩ Ǥ Ǧ Õ Ž ( ) = ? `
+    ʼ Ʒ Ǯ Ǩ Ǥ Ǧ Õ Ž ( ) = ? `
       Â Š E R T Đ U I O P Å ^
       A S D F G H J K L Ŋ Ä *
     > Z Č C V B N M ; : _
   # opt
   iso-alt: |
-    ¶ © @ £ $ < § | [ ] ˝ ± ´
+    § 1 2 3 4 5 6 7 8 9 0 ± ´
       q w é ˇ þ y ˀ ʼ ø ˙ ˚ ¨
       á š ð ƒ ǧ ˛ ˜ ǩ - ö æ '
     ǯ ž x č ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
-    • ¡ ” ¥ ¢ > ¶       \       {       }       \u{30B} ¿       `
+    • ! " # € % &       /       {       }       \u{30B} ¿       `
       Q W É ° Þ Y       .       \u{31B} Œ       \u{307} \u{30A} \u{302}
       Á Š Ð ˆ Ǧ \u{328} \u{330} Ǩ       \u{335} Ø       Æ       *
     Ǯ Ž X Č « » “       ”       „       ·       —
