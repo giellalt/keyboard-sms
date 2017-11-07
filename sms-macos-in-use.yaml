@@ -78,9 +78,9 @@ modes:
     ≤ ÷ đ ¸ ‹ › ‘ ’ ‚ … –
 
 deadKeys:
-  iso-default: ['ˇ']
+#  iso-default: ['ˇ']
 #  iso-shift: ['¨']
-  iso-caps: ['ˇ']
+#  iso-caps: ['ˇ']
   iso-alt: ['-', 'ʼ', 'ˀ', 'ˇ', '˙', '˚', '˛', '˜', '˝', '´', '¨']
   iso-alt+shift: ['`', 'ˆ', '.']
   iso-caps+alt: ['-', 'ʼ', 'ˀ', 'ˇ', '˙', '˚', '˛', '˜', '˝', '´']
