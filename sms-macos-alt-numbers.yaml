@@ -1,15 +1,15 @@
 ### Generated from fi-t-k0-osx-extended.xml on 2017-05-31 at 12:03.
-internalName: sms_macos_alt_numbers
+internalName: sms_macos_in_use
 
 displayNames:
-  sms: Nuõrttsääʹmǩiõll alt num
-  se: Nuortalašsámegiella alt num
-  fi: Koltansaame alt num
-  en: Skolt Sami alt num
-  nb: Skoltesamisk alt num
-  'no': Skoltesamisk alt num
-  nn: Skoltesamisk alt num
-  sv: Skoltsamiska alt num
+  sms: Nuõrttsääʹmǩiõll (in use)
+  se: Nuortalašsámegiella (in use)
+  fi: Koltansaame (in use)
+  en: Skolt Sami (in use)
+  nb: Skoltesamisk (in use)
+  'no': Skoltesamisk (in use)
+  nn: Skoltesamisk (in use)
+  sv: Skoltsamiska (in use)
 
 locale: sms
 
