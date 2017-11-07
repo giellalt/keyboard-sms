@@ -14,7 +14,12 @@ email: feedback@divvun.no
 copyright: (c) 2017 Divvun/Giellatekno/UiT
 organisation: UiT Norgga árktalaš universitehta
 
-layouts: [sms-mobile,sms-macos,sms-win]
+layouts:
+  - sms-mobile
+  - sms-macos
+  - sms-macos-in-use
+  - sms-macos-alt-num
+  - sms-win
 
 version: 1.0
 build: 1
