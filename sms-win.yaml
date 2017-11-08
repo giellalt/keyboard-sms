@@ -1,5 +1,5 @@
 ### Generated from fi-t-k0-windows-extended.xml on 2017-05-31 at 12:07.
-internalName: sms_windows
+internalName: sms_win
 
 displayNames:
   sms: Nuõrttsääʹmǩiõll
@@ -18,6 +18,7 @@ supportedTargets: [win, x11, svg]
 targets:
   win:
     locale: sms-Latn-FI
+    id: kbdsmswi
 
 modes:
   # default
