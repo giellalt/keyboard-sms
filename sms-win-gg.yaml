@@ -40,15 +40,15 @@ modes:
     > Z Č C V B N M ; : _
   # caps+shift
   iso-caps+shift: |
-    ʼ ! " # ¤ % & / ( ) = ? ˈ
-      â š e r t õ u i o p å ŋ
+    ½ Ʒ Ǯ Ǩ Ǥ Ǧ Õ Ž ( ) Ŋ ? `
+      â š e r t ʹ u i o p å ŋ
       a s d f g h j k l ö ä đ
     ʒ z ǥ c v b n m ; : _
   #" # altR+caps? ctrl+alt+caps?
   iso-alt: |
     § ^ @ £ $     € §     {     [     ]     }     \     ´
       q w € \u{0} ŧ \u{0} \u{0} ï     õ     \u{0} \u{0} ~
-      á š đ ǥ     ǧ ȟ     \u{0} ǩ     \u{0} ø     æ     '
+      á š đ ǥ     ǧ ȟ     \u{0} ǩ     \u{0} ø     æ     '  
     ǯ ž x č ǯ     ʒ ŋ     µ     \u{0} \u{0} \u{0}
   # altR+shift+caps? ctrl+alt+shift+caps?
   iso-alt+shift: |
@@ -61,7 +61,7 @@ modes:
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
           \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
           \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-          \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
 
 deadKeys:
   iso-default: ['ˇ']
