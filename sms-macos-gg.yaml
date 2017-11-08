@@ -2,14 +2,14 @@
 internalName: sms_macos_gg
 
 displayNames:
-  sms: Nuõrttsääʹmǩiõll (in use)
-  se: Nuortalašsámegiella (in use)
-  fi: Koltansaame (in use)
-  en: Skolt Sami (in use)
-  nb: Skoltesamisk (in use)
-  'no': Skoltesamisk (in use)
-  nn: Skoltesamisk (in use)
-  sv: Skoltsamiska (in use)
+  sms: Nuõrttsääʹmǩiõll (GG)
+  se: Nuortalašsámegiella (GG)
+  fi: Koltansaame (GG)
+  en: Skolt Sami (GG)
+  nb: Skoltesamisk (GG)
+  'no': Skoltesamisk (GG)
+  nn: Skoltesamisk (GG)
+  sv: Skoltsamiska (GG)
 
 locale: sms
 
@@ -81,8 +81,8 @@ deadKeys:
 #  iso-default: ['ˇ']
 #  iso-shift: ['¨']
 #  iso-caps: ['ˇ']
-  iso-alt: ['-', 'ʼ', 'ˀ', 'ˇ', '˙', '˚', '˛', '˜', '˝', '´', '¨']
-  iso-alt+shift: ['`', 'ˆ', '.']
+  iso-alt: ['-', 'ˇ', '˚', '˛', '˜', '´', '¨']
+#  iso-alt+shift: ['`', 'ˆ', '.']
   iso-caps+alt: ['-', 'ʼ', 'ˀ', 'ˇ', '˙', '˚', '˛', '˜', '˝', '´']
   osx-cmd+alt: [',', '¸', '˙', '˜', '˝']
 
@@ -113,66 +113,26 @@ transforms:
     S: Ș
     t: ț
     T: Ț
-  .:
-    " ": .
-    a: ạ
-    A: Ạ
-    b: ḅ
-    B: Ḅ
-    d: ḍ
-    D: Ḍ
-    e: ẹ
-    E: Ẹ
-    h: ḥ
-    H: Ḥ
-    i: ị
-    I: Ị
-    k: ḳ
-    K: Ḳ
-    l: ḷ
-    L: Ḷ
-    m: ṃ
-    M: Ṃ
-    n: ṇ
-    N: Ṇ
-    o: ọ
-    O: Ọ
-    r: ṛ
-    R: Ṛ
-    s: ṣ
-    S: Ṣ
-    t: ṭ
-    T: Ṭ
-    u: ụ
-    U: Ụ
-    v: ṿ
-    V: Ṿ
-    w: ẉ
-    W: Ẉ
-    y: ỵ
-    Y: Ỵ
-    z: ẓ
-    Z: Ẓ
-  "`":
-    " ": "`"
-    a: à
-    A: À
-    e: è
-    E: È
-    i: ì
-    I: Ì
-    n: ǹ
-    N: Ǹ
-    o: ò
-    O: Ò
-    u: ù
-    U: Ù
-    v: ǜ
-    V: Ǜ
-    w: ẁ
-    W: Ẁ
-    y: ỳ
-    Y: Ỳ
+#  "`":
+#    " ": "`"
+#    a: à
+#    A: À
+#    e: è
+#    E: È
+#    i: ì
+#    I: Ì
+#    n: ǹ
+#    N: Ǹ
+#    o: ò
+#    O: Ò
+#    u: ù
+#    U: Ù
+#    v: ǜ
+#    V: Ǜ
+#    w: ẁ
+#    W: Ẁ
+#    y: ỳ
+#    Y: Ỳ
   ´:
     " ": ´
     a: á
@@ -357,38 +317,38 @@ transforms:
     O: Ǫ
     u: ų
     U: Ų
-  ˆ:
-    " ": ^
-    a: â
-    A: Â
-    c: ĉ
-    C: Ĉ
-    e: ê
-    E: Ê
-    g: ĝ
-    G: Ĝ
-    h: ĥ
-    H: Ĥ
-    i: î
-    I: Î
-    j: ĵ
-    J: Ĵ
-    m: m\u{302}
-    M: M\u{302}
-    n: n\u{302}
-    N: N\u{302}
-    o: ô
-    O: Ô
-    s: ŝ
-    S: Ŝ
-    u: û
-    U: Û
-    w: ŵ
-    W: Ŵ
-    y: ŷ
-    Y: Ŷ
-    z: ẑ
-    Z: Ẑ
+#  ˆ:
+#    " ": ^
+#    a: â
+#    A: Â
+#    c: ĉ
+#    C: Ĉ
+#    e: ê
+#    E: Ê
+#    g: ĝ
+#    G: Ĝ
+#    h: ĥ
+#    H: Ĥ
+#    i: î
+#    I: Î
+#    j: ĵ
+#    J: Ĵ
+#    m: m\u{302}
+#    M: M\u{302}
+#    n: n\u{302}
+#    N: N\u{302}
+#    o: ô
+#    O: Ô
+#    s: ŝ
+#    S: Ŝ
+#    u: û
+#    U: Û
+#    w: ŵ
+#    W: Ŵ
+#    y: ŷ
+#    Y: Ŷ
+#    z: ẑ
+#    Z: Ẑ
   ˇ:
     " ": ˇ
     a: ǎ
