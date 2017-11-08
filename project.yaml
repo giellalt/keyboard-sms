@@ -3,10 +3,10 @@ internalName: sms
 locales:
   en:
     name: &bundleName "Skolt Sami Keyboards"
-    description: "Mobile OS keyboards for the Skolt Sami language from the Divvun group at UiT."
+    description: "Keyboards for the Skolt Sami language from UiT."
   nb:
     name: "Skoltesamisk tastatur"
-    description: "Mobiltastatur for skoltesamisk fra Divvun-gruppa."
+    description: "Tastatur for skoltesamisk fra UiT."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
@@ -17,9 +17,11 @@ organisation: UiT Norgga árktalaš universitehta
 layouts:
   - sms-mobile
   - sms-macos
+  - sms-macos-gg
   - sms-macos-in-use
   - sms-macos-alt-num
   - sms-win
+  - sms-win-gg
 
 version: 1.0
 build: 1
