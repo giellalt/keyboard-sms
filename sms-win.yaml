@@ -22,7 +22,7 @@ targets:
 
 modes:
   # default
-  iso-default:https://www.gifmint.com/wp-content/uploads/2017/09/2-225x300.jpg |
+  iso-default: |
     ʹ 1 2 3 4 5 6 7 8 9 0 + ˇ
       â š e r t õ u i o p å ŋ
       a s d f g h j k l ö ä đ
