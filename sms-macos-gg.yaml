@@ -37,21 +37,21 @@ modes:
   # opt
   iso-alt: |
     § 1 2 3 4 5 6 7 8 9 0 + ´
-      q w é ˇ ŧ y ú í ó ø ˚ ¨
+      q w é ˇ ŧ y ú í ø π ˚ ¨
       á ß ð ƒ ǧ ˛ ˜ ǩ - ö æ '
     ǯ ž x č ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
     • ! " # € % & / @ ~ = ± ´
-      Q W É ¶ Þ Y | ı Œ π ° ~
-      Á $ Ð ^ ≈ ∞ \ Ǩ £ Ø Æ *
+      Q W É ¶ Þ Y | Í Ø ∏ ° ~
+      Á $ Ð ^ ≈ ∞ \ Ǩ £ Ö Æ *
     Ǯ Ž X Č « » “ ” „ · —
   # opt+caps
   iso-caps+alt: |
-    ' © ™ £ € < § | [ ] ˝ ± ´
-      Q W É ˇ Þ Y ˀ ʼ Ø ˙ ˚ \u{308}
-      Á Š Ð ƒ Ǧ ˛ ˜ Ǩ - Ö Æ '
-    Ǯ Ž X Č ‹ › ‘ ’ ‚ … –
+    • ! " # € % & / @ ~ = ± ´
+      Q W É ¶ Þ Y | Í Ø ∏ ° ~
+      Á $ Ð ^ ≈ ∞ \ Ǩ £ Ö Æ *
+    Ǯ Ž X Č « » “ ” „ · —
   # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
   iso-ctrl: |
     0      1      2     3      4      5      6      7      8     9      0     \u{1F} =

@@ -41,22 +41,22 @@ modes:
     > Z Č C V B N M ; : _
   # caps+shift
   iso-caps+shift: |
-    ½ Ʒ Ǯ Ǩ Ǥ Ǧ Õ Ž ( ) Ŋ ? `
+    ½ ʒ ǯ ǩ ǥ ǧ õ ž [ ] ŋ ? `
       â š e r t ʹ u i o p å ŋ
-      a s d f g h j k l ö ä đ
+      a s d f g h j k l đ ä đ
     ʒ z ǥ c v b n m ; : _
   #" # altR+caps? ctrl+alt+caps?
   iso-alt: |
-    § ^ @ £ $     € §     {     [     ]     }     \     ´
-      q w € \u{0} ŧ \u{0} \u{0} ï     õ     \u{0} \u{0} ~
-      á š đ ǥ     ǧ ȟ     \u{0} ǩ     \u{0} ø     æ     '  
-    ǯ ž x č ǯ     ʒ ŋ     µ     \u{0} \u{0} \u{0}
+    § 1 2 3 4 5 6 7     8     9     0     + ´
+      q w € ‰ ŧ y ü     ï     ø     \u{0} @ ~
+      á $ đ ǥ ǧ ȟ \u{0} ǩ     £     ö     æ '  
+    ǯ ž x č ǯ ʒ ŋ µ     \u{0} \u{0} \u{0}
   # altR+shift+caps? ctrl+alt+shift+caps?
   iso-alt+shift: |
-    ½ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} <     >     \u{0} |     `
-      Q     W     \u{0} \u{0} Ŧ     \u{0} .     Ï     Õ     \u{0} \u{0} ¨
-      Á     Š     Đ     Ǥ     Ǧ     Ȟ     \u{0} Ǩ     \u{0} Ø     Æ     *
-    Ǯ Ž     X     Č     Ǯ     Ʒ     Ŋ     \u{0} \u{0} \u{0} \u{0}
+    ʼ ! " # ¤     % & /     {     }     =     ? ˈ
+      Q W É \u{0} Ŧ Y Ü     Ï     Ø     <     > ¨
+      Á ß Đ Ǥ     Ǧ Ȟ \u{0} Ǩ     \u{0} Ö     Æ *
+    Ǯ Ž X Č Ǯ     Ʒ Ŋ \u{0} \u{0} \u{0} \u{0}
   # ctrl+caps?
   iso-ctrl: |
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
