@@ -19,6 +19,7 @@ targets:
   win:
     locale: sms-Latn-FI
     id: smsgg
+    languageName: "Nuõrttsääʹmǩiõll (SMS)"
 
 modes:
   # default
