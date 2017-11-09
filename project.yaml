@@ -18,8 +18,6 @@ layouts:
   - sms-mobile
   - sms-macos
   - sms-macos-gg
-  - sms-macos-in-use
-  - sms-macos-alt-num
   - sms-win
   - sms-win-gg
 
@@ -43,7 +41,7 @@ targets:
   osx:
     <<: *AppleID
     icon: images/sms-keyboard-menu-icon.png
-    version: 0.2.0
+    version: 0.2.1
     resources: doc
 
   win:
