@@ -21,61 +21,61 @@ modes:
     ʹ 1 2 3 4 5 6 7 8 9 0 + ˇ
       â š e r t õ u i o p å ŋ
       a s d f g h j k l ö ä đ
-      ʒ z ǥ c v b n m , . -
+    ʒ z ǥ c v b n m , . -
   # shift+caps?
   iso-shift: |
     ʼ ! " # € % & / ( ) = ? ˈ
       Â Š E R T Õ U I O P Å Ŋ
       A S D F G H J K L Ö Ä Đ
-      Ʒ Z Ǥ C V B N M ; : _
+    Ʒ Z Ǥ C V B N M ; : _
   #" # caps
   iso-caps: |
     ʹ 1 2 3 4 5 6 7 8 9 0 + ˇ
       Â Š E R T Õ U I O P Å Ŋ
       A S D F G H J K L Ö Ä Đ
-      Ʒ Z Ǥ C V B N M , . -
+    Ʒ Z Ǥ C V B N M , . -
   # opt
   iso-alt: |
     ¶ © @ £ $ < § | [ ] ˝ ± ´
       q w é ˇ þ y ˀ ʼ œ ˙ ˚ ¨
       á š ð ƒ ǧ ˛ ˜ ǩ - ø æ '
-      ǯ ž x č ‹ › ‘ ’ ‚ … –
+    ǯ ž x č ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
     • ¡ ” ¥ ¢ > ¶ \ { } \u{30B} ¿ `
       Q W É ° Þ Y . \u{31B} Œ \u{307} \u{30A} \u{302}
       Á Š Ð ˆ Ǧ \u{328} \u{330} Ǩ \u{335} Ø Æ *
-      Ǯ Ž X Č « » “ ” „ · —
+    Ǯ Ž X Č « » “ ” „ · —
   # opt+caps
   iso-caps+alt: |
     ' © ™ £ € < § | [ ] ˝ ± ´
       Q W É ˇ Þ Y ˀ ʼ Œ ˙ ˚ \u{308}
       Á Š Ð ƒ Ǧ ˛ ˜ Ǩ - Ø Æ '
-      Ǯ Ž X Č ‹ › ‘ ’ ‚ … –
+    Ǯ Ž X Č ‹ › ‘ ’ ‚ … –
   # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
   iso-ctrl: |
-    0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
-    \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
-    \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
-    ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
+    0 1      2      3     4      5      6      7      8     9     0      \u{1F} =
+      \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+      \u{1}  \u{13} \u{4} \u{6}  \u{7}  \u{8}  \u{A}  \u{B} \u{C} ;      '      \u{1C}
+    ` \u{1A} \u{18} \u{3} \u{16} \u{2}  \u{E}  \u{D}  ,     .     /
   # cmd
   osx-cmd: |
     § 1 2 3 4 5 6 7 8 9 0 + ´
       q w e r t y u i o p å ¨
       a s d f g h j k l ö ä '
-      < z x c v b n m , . -
+    < z x c v b n m , . -
   # shift+caps?
   osx-cmd+shift: |
     ° ! " # € % & / ( ) = ? `
       Q W E R T Y U I O P Å ˆ
       A S D F G H J K L Ö Ä *
-      > Z X C V B N M ; : _
+    > Z X C V B N M ; : _
   #" # cmd+opt+caps?
   osx-cmd+alt: |
     € © ™ £ € § \u{0} | [ ] ≈ ± `
       • , é \u{0} ŧ µ ü ı œ þ ˙ ˜
       ¯ ß ð ƒ \u{0} ħ ˝ ª ł ö ä '
-      ≤ ÷ đ ¸ ‹ › ‘ ’ ‚ … –
+    ≤ ÷ đ ¸ ‹ › ‘ ’ ‚ … –
 
 deadKeys:
   iso-default: ['ˇ']
