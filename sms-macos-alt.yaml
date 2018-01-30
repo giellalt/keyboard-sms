@@ -1,0 +1,459 @@
+### Generated from fi-t-k0-osx-extended.xml on 2017-05-31 at 12:03.
+internalName: sms_macos
+
+displayNames:
+  sms: Nuõrttsääʹmǩiõll (FI)
+  se: Nuortalašsámegiella (FI)
+  fi: Koltansaame (FI)
+  en: Skolt Sami (FI)
+  nb: Skoltesamisk (FI)
+  'no': Skoltesamisk (FI)
+  nn: Skoltesamisk (FI)
+  sv: Skoltsamiska (FI)
+
+locale: sms
+
+supportedTargets: [osx, x11, svg]
+
+modes:
+  # default
+  iso-default: |
+    ʹ 1 2 3 4 5 6 7 8 9 0 + ˇ
+      â š e r t õ u i o p å ŋ
+      a s d f g h j k l ö ä đ
+    ʒ z ǥ c v b n m , . -
+  # shift+caps?
+  iso-shift: |
+    ʼ ! " # € % & / ( ) = ? ˈ
+      Â Š E R T Õ U I O P Å Ŋ
+      A S D F G H J K L Ö Ä Đ
+    Ʒ Z Ǥ C V B N M ; : _
+  #" # caps
+  iso-caps: |
+    ʹ 1 2 3 4 5 6 7 8 9 0 + ˇ
+      Â Š E R T Õ U I O P Å Ŋ
+      A S D F G H J K L Ö Ä Đ
+    Ʒ Z Ǥ C V B N M , . -
+  # opt
+  iso-alt: |
+    ¶ © @ £ $ < § | [ ] ˝ ± ´
+      q w é ˇ þ y ˀ ʼ œ ˙ ˚ ¨
+      á š ð ƒ ǧ ˛ ˜ ǩ - ø æ '
+    ǯ ž x č ‹ › ‘ ’ ‚ … –
+  # opt+shift+cmd?+caps?
+  iso-alt+shift: |
+    • ¡ ” ¥ ¢ > ¶ \ { } \u{30B} ¿ `
+      Q W É ° Þ Y . \u{31B} Œ \u{307} \u{30A} \u{302}
+      Á Š Ð ˆ Ǧ \u{328} \u{330} Ǩ \u{335} Ø Æ *
+    Ǯ Ž X Č « » “ ” „ · —
+  # opt+caps
+  iso-caps+alt: |
+    ' © ™ £ € < § | [ ] ˝ ± ´
+      Q W É ˇ Þ Y ˀ ʼ Œ ˙ ˚ \u{308}
+      Á Š Ð ƒ Ǧ ˛ ˜ Ǩ - Ø Æ '
+    Ǯ Ž X Č ‹ › ‘ ’ ‚ … –
+  # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
+  iso-ctrl: |
+    0 1      2      3     4      5      6      7      8     9     0      \u{1F} =
+      \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+      \u{1}  \u{13} \u{4} \u{6}  \u{7}  \u{8}  \u{A}  \u{B} \u{C} ;      '      \u{1C}
+    ` \u{1A} \u{18} \u{3} \u{16} \u{2}  \u{E}  \u{D}  ,     .     /
+  # cmd
+  osx-cmd: |
+    § 1 2 3 4 5 6 7 8 9 0 + ´
+      q w e r t y u i o p å ¨
+      a s d f g h j k l ö ä '
+    < z x c v b n m , . -
+  # shift+caps?
+  osx-cmd+shift: |
+    ° ! " # € % & / ( ) = ? `
+      Q W E R T Y U I O P Å ˆ
+      A S D F G H J K L Ö Ä *
+    > Z X C V B N M ; : _
+  #" # cmd+opt+caps?
+  osx-cmd+alt: |
+    € © ™ £ € § \u{0} | [ ] ≈ ± `
+      • , é \u{0} ŧ µ ü ı œ þ ˙ ˜
+      ¯ ß ð ƒ \u{0} ħ ˝ ª ł ö ä '
+    ≤ ÷ đ ¸ ‹ › ‘ ’ ‚ … –
+
+deadKeys:
+  iso-default: ['ˇ']
+#  iso-shift: ['¨']
+  iso-caps: ['ˇ']
+  iso-alt: ['-', 'ʼ', 'ˀ', 'ˇ', '˙', '˚', '˛', '˜', '˝', '´', '¨']
+  iso-alt+shift: ['`', 'ˆ', '.']
+  iso-caps+alt: ['-', 'ʼ', 'ˀ', 'ˇ', '˙', '˚', '˛', '˜', '˝', '´']
+  osx-cmd+alt: [',', '¸', '˙', '˜', '˝']
+
+transforms:
+  "-":
+    " ": "-"
+    b: ƀ
+    d: đ
+    D: Đ
+    g: ǥ
+    G: Ǥ
+    h: ħ
+    H: Ħ
+    i: ɨ
+    I: Ɨ
+    l: ł
+    L: Ł
+    o: ɵ
+    O: Ɵ
+    t: ŧ
+    T: Ŧ
+    u: ʉ
+    z: ƶ
+    Z: Ƶ
+  ",":
+    " ": ","
+    s: ș
+    S: Ș
+    t: ț
+    T: Ț
+  .:
+    " ": .
+    a: ạ
+    A: Ạ
+    b: ḅ
+    B: Ḅ
+    d: ḍ
+    D: Ḍ
+    e: ẹ
+    E: Ẹ
+    h: ḥ
+    H: Ḥ
+    i: ị
+    I: Ị
+    k: ḳ
+    K: Ḳ
+    l: ḷ
+    L: Ḷ
+    m: ṃ
+    M: Ṃ
+    n: ṇ
+    N: Ṇ
+    o: ọ
+    O: Ọ
+    r: ṛ
+    R: Ṛ
+    s: ṣ
+    S: Ṣ
+    t: ṭ
+    T: Ṭ
+    u: ụ
+    U: Ụ
+    v: ṿ
+    V: Ṿ
+    w: ẉ
+    W: Ẉ
+    y: ỵ
+    Y: Ỵ
+    z: ẓ
+    Z: Ẓ
+  "`":
+    " ": "`"
+    a: à
+    A: À
+    e: è
+    E: È
+    i: ì
+    I: Ì
+    n: ǹ
+    N: Ǹ
+    o: ò
+    O: Ò
+    u: ù
+    U: Ù
+    v: ǜ
+    V: Ǜ
+    w: ẁ
+    W: Ẁ
+    y: ỳ
+    Y: Ỳ
+  ´:
+    " ": ´
+    a: á
+    A: Á
+    c: ć
+    C: Ć
+    e: é
+    E: É
+    g: ǵ
+    G: Ǵ
+    i: í
+    I: Í
+    k: ḱ
+    K: Ḱ
+    l: ĺ
+    L: Ĺ
+    m: ḿ
+    M: Ḿ
+    n: ń
+    N: Ń
+    o: ó
+    O: Ó
+    p: ṕ
+    P: Ṕ
+    r: ŕ
+    R: Ŕ
+    s: ś
+    S: Ś
+    u: ú
+    U: Ú
+    v: ǘ
+    V: Ǘ
+    w: ẃ
+    W: Ẃ
+    y: ý
+    Y: Ý
+    z: ź
+    Z: Ź
+    å: ǻ
+    Å: Ǻ
+    æ: ǽ
+    Æ: Ǽ
+    ø: ǿ
+    Ø: Ǿ
+  ˜:
+    " ": "~"
+    a: ã
+    A: Ã
+    e: ẽ
+    E: Ẽ
+    i: ĩ
+    I: Ĩ
+    n: ñ
+    N: Ñ
+    o: õ
+    O: Õ
+    u: ũ
+    U: Ũ
+    v: ṽ
+    V: Ṽ
+    y: ỹ
+    Y: Ỹ
+  ˙:
+    " ": ˙
+    a: ȧ
+    A: Ȧ
+    b: ḃ
+    B: Ḃ
+    c: ċ
+    C: Ċ
+    d: ḋ
+    D: Ḋ
+    e: ė
+    E: Ė
+    f: ḟ
+    F: Ḟ
+    g: ġ
+    G: Ġ
+    h: ḣ
+    H: Ḣ
+    i: ı
+    I: İ
+    m: ṁ
+    M: Ṁ
+    n: ṅ
+    N: Ṅ
+    o: ȯ
+    O: Ȯ
+    p: ṗ
+    P: Ṗ
+    r: ṙ
+    R: Ṙ
+    s: ṡ
+    S: Ṡ
+    t: ṫ
+    T: Ṫ
+    w: ẇ
+    W: Ẇ
+    x: ẋ
+    X: Ẋ
+    y: ẏ
+    Y: Ẏ
+    z: ż
+    Z: Ż
+  ¨:
+    " ": ¨
+    a: ä
+    A: Ä
+    e: ë
+    E: Ë
+    h: ḧ
+    H: Ḧ
+    i: ï
+    I: Ï
+    o: ö
+    O: Ö
+    t: ẗ
+    T: T\u{308}
+    u: ü
+    U: Ü
+    w: ẅ
+    W: Ẅ
+    x: ẍ
+    X: Ẍ
+    y: ÿ
+    Y: Ÿ
+  ˚:
+    " ": ˚
+    a: å
+    A: Å
+    e: e\u{30A}
+    E: E\u{30A}
+    o: o\u{30A}
+    O: O\u{30A}
+    u: ů
+    U: Ů
+    w: ẘ
+    W: W\u{30A}
+    y: ẙ
+    Y: Y\u{30A}
+  ˝:
+    " ": ˝
+    o: ő
+    O: Ő
+    u: ű
+    U: Ű
+  ¸:
+    " ": ¸
+    c: ç
+    C: Ç
+    d: ḑ
+    D: Ḑ
+    e: ȩ
+    E: Ȩ
+    g: ģ
+    G: Ģ
+    h: ḩ
+    H: Ḩ
+    k: ķ
+    K: Ķ
+    l: ļ
+    L: Ļ
+    n: ņ
+    N: Ņ
+    r: ŗ
+    R: Ŗ
+    s: ş
+    S: Ş
+    t: ţ
+    T: Ţ
+    z: z\u{327}
+    Z: Z\u{327}
+  ˛:
+    " ": ˛
+    a: ą
+    A: Ą
+    e: ę
+    E: Ę
+    i: į
+    I: Į
+    o: ǫ
+    O: Ǫ
+    u: ų
+    U: Ų
+  ˆ:
+    " ": ^
+    a: â
+    A: Â
+    c: ĉ
+    C: Ĉ
+    e: ê
+    E: Ê
+    g: ĝ
+    G: Ĝ
+    h: ĥ
+    H: Ĥ
+    i: î
+    I: Î
+    j: ĵ
+    J: Ĵ
+    m: m\u{302}
+    M: M\u{302}
+    n: n\u{302}
+    N: N\u{302}
+    o: ô
+    O: Ô
+    s: ŝ
+    S: Ŝ
+    u: û
+    U: Û
+    w: ŵ
+    W: Ŵ
+    y: ŷ
+    Y: Ŷ
+    z: ẑ
+    Z: Ẑ
+  ˇ:
+    " ": ˇ
+    a: ǎ
+    A: Ǎ
+    c: č
+    C: Č
+    d: ď
+    D: Ď
+    e: ě
+    E: Ě
+    g: ǧ
+    G: Ǧ
+    h: ȟ
+    H: Ȟ
+    i: ǐ
+    I: Ǐ
+    j: ǰ
+    J: J\u{30C}
+    k: ǩ
+    K: Ǩ
+    l: ľ
+    L: Ľ
+    n: ň
+    N: Ň
+    o: ǒ
+    O: Ǒ
+    r: ř
+    R: Ř
+    s: š
+    S: Š
+    t: ť
+    T: Ť
+    u: ǔ
+    U: Ǔ
+    v: ǚ
+    V: Ǚ
+    z: ž
+    Z: Ž
+    ʒ: ǯ
+    Ʒ: Ǯ
+  ˀ:
+    " ": ˀ
+    a: ả
+    A: Ả
+    e: ẻ
+    E: Ẻ
+    i: ỉ
+    I: Ỉ
+    o: ỏ
+    O: Ỏ
+    u: ủ
+    U: Ủ
+    y: ỷ
+    Y: Ỷ
+  ʼ:
+    " ": ʼ
+    o: ơ
+    O: Ơ
+    u: ư
+    U: Ư
+
+special:
+  space:
+    iso-caps: \u{A0}
+    iso-alt: \u{A0}
+    iso-alt+shift: \u{A0}
+    iso-caps+alt: \u{A0}
+    osx-cmd+alt: \u{A0}
