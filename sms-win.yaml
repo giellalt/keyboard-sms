@@ -24,16 +24,16 @@ targets:
 modes:
   # default
   iso-default: |
-    ʹ 1 2 3 4 5 6 7 8 9 0 + ˇ
-      â š e r t õ u i o p å ŋ
-      a s d f g h j k l ö ä đ
-    ʒ z ǥ c v b n m , . -
+    § ~ @ ǩ ǥ ǧ ŋ đ [ ] | + ʒ
+      â š e r t y u i o p å ǯ
+      a s d f g h j k l õ ä ʹ
+    ž z č c v b n m , . -
   # shift
   iso-shift: |
-    ʼ ! " # ¤ % & / ( ) = ? ˈ
-      Â Š E R T Õ U I O P Å Ŋ
-      A S D F G H J K L Ö Ä Đ
-    Ʒ Z Ǥ C V B N M ; : _
+    ½ ! " Ǩ Ǥ Ǧ Ŋ Đ ( ) = ? Ʒ      
+      Â Š E R T Y U I O P Å Ǯ 
+      A S D F G H J K L Õ Ä ʼ
+    Ž Z Č C V B N M ; : _
   #" # caps
   iso-caps: |
     ʹ 1 2 3 4 5 6 7 8 9 0 + ˇ
@@ -42,16 +42,17 @@ modes:
     Ʒ Z Ǥ C V B N M , . -
   # caps+shift
   iso-caps+shift: |
-    ʼ ! " # ¤ % & / ( ) = ? ˈ
-      â š e r t õ u i o p å ŋ
-      a s d f g h j k l ö ä đ
-    ʒ z ǥ c v b n m ; : _
+    § ¡ ” # € % & / { } ≈ ¿ Ẹ 
+      Q W $ ˇ Ŧ Ý Ú I Ø ∏ ˚ 
+      Á ß Ð ƒ Ǧ Ǥ ˜ Ǩ - Ö Æ *
+    ≤ ≥ X Č « » “ ” ‚ … –
   #" # altR+caps? ctrl+alt+caps?
   iso-alt: |
-    § ^ @ £ $     € §     {     [     ]     }     \     ´
-      q w € \u{0} ŧ \u{0} \u{0} ï     õ     \u{0} \u{0} ~
-      á š đ ǥ     ǧ ȟ     \u{0} ǩ     \u{0} ø     æ     '
-    ǯ ž x č ǯ     ʒ ŋ     µ     \u{0} \u{0} \u{0}
+    § 1 2 3 4 5 6 7 8 9 0 + ẹ
+      q w € ˇ ŧ ý ú í ø π ˚ 
+      á ß ð ƒ ǧ ǥ ˜ ǩ - ö æ ˈ
+    < > x č ‹ › ‘ ’ ‚ … –
+
   # altR+shift+caps? ctrl+alt+shift+caps?
   iso-alt+shift: |
     ½ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} <     >     \u{0} |     `
