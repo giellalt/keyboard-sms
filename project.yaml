@@ -17,9 +17,7 @@ organisation: UiT Norgga árktalaš universitehta
 layouts:
   - sms-mobile
   - sms-macos
-  - sms-macos-gg
   - sms-win
-  - sms-win-gg
 
 version: 1.0
 build: 1
