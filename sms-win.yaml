@@ -19,7 +19,7 @@ targets:
   win:
     locale: sms-Latn-FI
     id: smswi
-    languageName: "Nuõrttsääʹmǩiõll (FI)"
+    languageName: "Nuõrttsääʹmǩiõll"
 
 modes:
   # default

@@ -3,10 +3,13 @@ internalName: sms
 locales:
   en:
     name: &bundleName "Skolt Sami Keyboards"
-    description: "Keyboards for the Skolt Sami language from UiT."
-  nb:
-    name: "Skoltesamisk tastatur"
-    description: "Tastatur for skoltesamisk fra UiT."
+    description: "Keyboards for the Skolt Sami language."
+  fi:
+    name: "Koltansaamen näppäimistöt"
+    description: "Näppäimistöt koltansaamen kielelle."
+  sms:
+    name: "Nuõrttsääʹmǩiõll xxx"
+    description: "Tastatur for skoltesamisk."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
@@ -39,11 +42,11 @@ targets:
   osx:
     <<: *AppleID
     icon: images/sms-keyboard-menu-icon.png
-    version: 0.2.1
+    version: 0.2.2
     resources: doc
 
   win:
     appName: *bundleName
-    version: 0.1.4
+    version: 0.1.5
     url: "http://divvun.no"
     uuid: "5D5F44C7-9716-4B33-BB99-EB3717ECDCFB"
