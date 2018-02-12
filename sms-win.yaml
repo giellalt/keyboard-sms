@@ -26,39 +26,43 @@ modes:
   iso-default: |
     § ~ @ ǩ ǥ ǧ ŋ đ [ ] | + ʒ
       â š e r t y u i o p å ǯ
-      a s d f g h j k l õ ä ʹ
+      a s d f g h j k l õ ä ʹ # pehmennys = prime 02B9
     ž z č c v b n m , . -
   # shift
   iso-shift: |
-    ½ ! " Ǩ Ǥ Ǧ Ŋ Đ ( ) = ? Ʒ      
-      Â Š E R T Y U I O P Å Ǯ 
-      A S D F G H J K L Õ Ä ʼ
+    ½ ! " Ǩ Ǥ Ǧ Ŋ Đ ( ) = ? Ʒ #"
+      Â Š E R T Y U I O P Å Ǯ
+      A S D F G H J K L Õ Ä ʼ # erotus = apostrohp 02BC
     Ž Z Č C V B N M ; : _
-  #" # caps
+  # caps
   iso-caps: |
-    ʹ 1 2 3 4 5 6 7 8 9 0 + ˇ
-      Â Š E R T Õ U I O P Å Ŋ
-      A S D F G H J K L Ö Ä Đ
-    Ʒ Z Ǥ C V B N M , . -
+    § ~ @ Ǩ Ǥ Ǧ Ŋ Đ [ ] | + Ʒ
+      Â Š E R T Y U I O P Å Ǯ
+      A S D F G H J K L Õ Ä ʹ # pehmennys = prime 02B9
+    Ž Z Č C V B N M , . -
   # caps+shift
   iso-caps+shift: |
-    § ¡ ” # € % & / { } ≈ ¿ Ẹ 
-      Q W $ ˇ Ŧ Ý Ú I Ø ∏ ˚ 
-      Á ß Ð ƒ Ǧ Ǥ ˜ Ǩ - Ö Æ *
-    ≤ ≥ X Č « » “ ” ‚ … –
-  #" # altR+caps? ctrl+alt+caps?
+    ½ ! " ǩ ǥ ǧ ŋ đ ( ) = ? ʒ #"
+      â š e r t y u i o p å ǯ
+      a s d f g h j k l õ ä ʼ # erotus = apostrohp 02BC
+    ž z č c v b n m ; : _
+  # altR+caps? ctrl+alt+caps?
   iso-alt: |
-    § 1 2 3 4 5 6 7 8 9 0 + ẹ
-      q w € ˇ ŧ ý ú í ø π ˚ 
-      á ß ð ƒ ǧ ǥ ˜ ǩ - ö æ ˈ
-    < > x č ‹ › ‘ ’ ‚ … –
-
+    | 1 2 3 4 5 6 7 8 9 0 \ ´
+      q w ẹ ® ŧ ý ú í ø π ˚ ¨
+      á ß ð þ ǧ ǥ ˜ ǩ - ö æ ˈ # v. asteen m 02C8 vertical line
+    < ≤ x ç ‹ › ‘ ’ ‚ … –
   # altR+shift+caps? ctrl+alt+shift+caps?
   iso-alt+shift: |
-    ½ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} <     >     \u{0} |     `
-      Q     W     \u{0} \u{0} Ŧ     \u{0} .     Ï     Õ     \u{0} \u{0} ¨
-      Á     Š     Đ     Ǥ     Ǧ     Ȟ     \u{0} Ǩ     \u{0} Ø     Æ     *
-    Ǯ Ž     X     Č     Ǯ     Ʒ     Ŋ     \u{0} \u{0} \u{0} \u{0}
+    ½ £ $ # ¤ % & / <     >     \u{0} |     `
+      Q W ¢ √ Ŧ Ý . Í     Õ     \u{0} \u{0} ^
+      Á Š Đ Ǥ Ǧ Ȟ ˜ Ǩ     \u{0} Ø     Æ     *
+    > ≥ X Ç « » Ŋ µ \u{0} \u{0} \u{0}
+
+
+
+
+
   # ctrl+caps?
   iso-ctrl: |
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
