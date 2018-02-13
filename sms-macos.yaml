@@ -16,46 +16,41 @@ locale: sms
 supportedTargets: [osx, x11, svg]
 
 modes:
-  # default
+  # default - C12 = pehmennys = prime 02B9
   iso-default: |
     § ~ @ ǩ ǥ ǧ ŋ đ [ ] | + ʒ
       â š e r t y u i o p å ǯ
-      a s d f g h j k l õ ä ʹ # pehmennys = prime 02B9
+      a s d f g h j k l õ ä ʹ
     ž z č c v b n m , . -
-  # shift
+  # shift - C12 = erotus = apostrohp 02BC
   iso-shift: |
-    ˚ ! " Ǩ Ǥ Ǧ Ŋ Đ ( ) = ? Ʒ #"
+    ˚ ! " Ǩ Ǥ Ǧ Ŋ Đ ( ) = ? Ʒ
       Â Š E R T Y U I O P Å Ǯ
-      A S D F G H J K L Õ Ä ʼ # erotus = apostrohp 02BC
+      A S D F G H J K L Õ Ä ʼ
     Ž Z Č C V B N M ; : _
-  # caps
+  #" # caps - C12 = pehmennys = prime 02B9
   iso-caps: |
     § ~ @ Ǩ Ǥ Ǧ Ŋ Đ [ ] | + Ʒ
       Â Š E R T Y U I O P Å Ǯ
-      A S D F G H J K L Õ Ä ʹ # pehmennys = prime 02B9
+      A S D F G H J K L Õ Ä ʹ
     Ž Z Č C V B N M , . -
-
-
-
-
-
-  # opt
+  # opt - C12 v. asteen m 02C8 vertical line
   iso-alt: |
     ' 1 2 3 4 5 6 7 8 9 0 ± ´
       q w ẹ ® ŧ ý ú í ø π ˙ ¨
-      á ß ð þ ǧ ǥ ˜ ǩ - ö æ ˈ # v. asteen m 02C8 vertical line
+      á ß ð þ ǧ ǥ ˜ ǩ - ö æ ˈ
     < ≤ x ç ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
-    ¶ ¡ ” # € % & / { } ≈ ¿ ` #"
+    ¶ ¡ ” # € % & / { } ≈ ¿ `
       Q W Ẹ √ Ŧ Ý Ú Í Ø Π ˚ ^
       Á $ Ð Þ Ǧ Ǥ ˜ Ǩ - Ö Æ *
     > ≥ X Ç « » “ ” „ · —
-  # opt+caps
+  # opt+caps - C12 = v. asteen m 02C8 vertical line
   iso-caps+alt: |
     ' 1 2 3 4 5 6 7 8 9 0 ± ´
       Q W É ® Ŧ Ý Ú Í Ø π ˙ ¨
-      Á Š Ð Þ Ǧ Ǥ ˜ Ǩ - Ö Æ ˈ # v. asteen m 02C8 vertical line
+      Á Š Ð Þ Ǧ Ǥ ˜ Ǩ - Ö Æ ˈ
     < ≤ X Ç ‹ › ‘ ’ ‚ … –
   # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
   iso-ctrl: |
