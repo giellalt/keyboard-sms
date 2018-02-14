@@ -34,7 +34,7 @@ modes:
       Â Š E R T Y U I O P Å Ǯ
       A S D F G H J K L Õ Ä ʹ
     Ž Z Č C V B N M , . -
-  # opt - C12 v. asteen m 02C8 vertical line
+  # opt - C12 v. asteen m = 02C8 vertical line
   iso-alt: |
     ' 1 2 3 4 5 6 7 8 9 0 ± ´
       q w ẹ ® ŧ ý ú í ø π ˙ ¨
@@ -46,7 +46,7 @@ modes:
       Q W Ẹ √ Ŧ Ý Ú Í Ø Π ˚ ˆ
       Á $ Ð Þ Ǧ Ǥ ˜ Ǩ - Ö Æ *
     > ≥ X Ç « » “ ” „ · —
-  # opt+caps - C12 = v. asteen m 02C8 vertical line
+  # opt+caps - C12 = v. asteen m = 02C8 vertical line
   iso-caps+alt: |
     ' 1 2 3 4 5 6 7 8 9 0 ± ´
       Q W É ® Ŧ Ý Ú Í Ø π ˙ ¨
