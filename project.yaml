@@ -42,11 +42,11 @@ targets:
   osx:
     <<: *AppleID
     icon: images/sms-keyboard-menu-icon.png
-    version: 0.2.3
+    version: 1.0.0
     resources: doc
 
   win:
     appName: *bundleName
-    version: 0.1.5
+    version: 1.0.0
     url: "http://divvun.no"
     uuid: "5D5F44C7-9716-4B33-BB99-EB3717ECDCFB"
