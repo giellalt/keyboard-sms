@@ -2,7 +2,7 @@ default partial alphanumeric_keys
 xkb_symbols "basic" {
 
     include "latin"
-    name[Group1] = "Nuõrttsääʹmǩiõll";
+    name[Group1] = "Nuõrttsääʹmǩiõll (macOS)";
 
     key <AE00> { [    section,      U02DA, apostrophe,  paragraph ] };
     key <AE01> { [ asciitilde,     exclam,          1, exclamdown ] };
@@ -60,7 +60,7 @@ default partial alphanumeric_keys
 xkb_symbols "basic" {
 
     include "latin"
-    name[Group1] = "Nuõrttsääʹmǩiõll";
+    name[Group1] = "Nuõrttsääʹmǩiõll (Windows)";
 
     key <AE00> { [    section,    onehalf,        bar,    onehalf ] };
     key <AE01> { [ asciitilde,     exclam,          1,   sterling ] };
@@ -83,7 +83,7 @@ xkb_symbols "basic" {
     key <AD06> { [          y,          Y,     yacute,     Yacute ] };
     key <AD07> { [          u,          U,     uacute, decimalpoint ] };
     key <AD08> { [          i,          I,     iacute,     Iacute ] };
-    key <AD09> { [          o,          O,   ooblique,     Otilde ] };
+    key <AD09> { [          o,          O,   ooblique,   Ooblique ] };
     key <AD10> { [          p,          P,   Greek_pi ] };
     key <AD11> { [      aring,      Aring,      U02DA ] };
     key <AD12> { [      U01EF,      U01EE,  diaeresis, asciicircum ] };
@@ -96,7 +96,7 @@ xkb_symbols "basic" {
     key <AC07> { [          j,          J,      U02DC,      U02DC ] };
     key <AC08> { [          k,          K,      U01E9,      U01E8 ] };
     key <AC09> { [          l,          L,      minus ] };
-    key <AC10> { [     otilde,     Otilde, odiaeresis,   Ooblique ] };
+    key <AC10> { [     otilde,     Otilde, odiaeresis, Odiaeresis ] };
     key <AC11> { [ adiaeresis, Adiaeresis,         ae,         AE ] };
     key <AD13> { [      U02B9,      U02BC,      U02C8,   asterisk ] };
     key <AB00> { [     zcaron,     Zcaron,  leftcaret, rightcaret ] };
