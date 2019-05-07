@@ -55,8 +55,8 @@ modes:
   # altR+shift+caps? ctrl+alt+shift+caps?
   iso-alt+shift: |
     ½ £ $ # ¤ % & / <     >     \u{0} |     `
-      Q W ¢ √ Ŧ Ý . Í     Õ     \u{0} \u{0} ^
-      Á Š Đ Ǥ Ǧ Ȟ ˜ Ǩ     \u{0} Ø     Æ     *
+      Q W ¢ √ Ŧ Ý . Í     Ø     \u{0} \u{0} ^
+      Á Š Đ Ǥ Ǧ Ȟ ˜ Ǩ     \u{0} Ö     Æ     *
     > ≥ X Ç « » Ŋ µ \u{0} \u{0} \u{0}
 
 
