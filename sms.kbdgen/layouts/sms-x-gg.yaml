@@ -1,0 +1,344 @@
+displayNames:
+  sms: Nuõrttsääʹmǩiõll (GG)
+  se: Nuortalašsámegiella (GG)
+  fi: Koltansaame (GG)
+  en: Skolt Sami (GG)
+  nb: Skoltesamisk (GG)
+  'no': Skoltesamisk (GG)
+  nn: Skoltesamisk (GG)
+  sv: Skoltsamiska (GG)
+modes:
+  mac:
+    default: |
+      § ʒ ǯ ǩ ǥ ǧ õ ž [ ] ŋ + ʹ
+        â š e r t ʹ u i o p å ˈ
+        a s d f g h j k l đ ä ʼ
+      < z č c v b n m , . -
+    shift: |
+      ½ Ʒ Ǯ Ǩ Ǥ Ǧ Õ Ž ( ) Ŋ ? `
+        Â Š E R T ʹ U I O P Å ^
+        A S D F G H J K L Đ Ä *
+      > Z Č C V B N M ; : _
+    caps: |
+      Ǯ Ʒ Ǯ Ǩ Ǥ Ǧ Õ Ž ( ) Ŋ ? `
+        Â Š E R T ʹ U I O P Å ^
+        A S D F G H J K L Đ Ä *
+      > Z Č C V B N M ; : _
+    alt: |
+      § 1 2 3 4 5 6 7 8 9 0 + ´
+        q w é ˇ ŧ y ú í ø π ˚ ¨
+        á ß ð ƒ ǧ ˛ ˜ ǩ - ö æ '
+      ǯ ž x č ‹ › ‘ ’ ‚ … –
+    alt+shift: |
+      • ! " # € % & / @ ~ = ± ´
+        Q W É ¶ Þ Y | Í Ø ∏ ° ~
+        Á $ Ð ^ ≈ ∞ \ Ǩ £ Ö Æ *
+      Ǯ Ž X Č « » “ ” „ · —
+    caps+alt: |
+      • ! " # € % & / @ ~ = ± ´
+        Q W É ¶ Þ Y | Í Ø ∏ ° ~
+        Á $ Ð ^ ≈ ∞ \ Ǩ £ Ö Æ *
+      Ǯ Ž X Č « » “ ” „ · —
+    ctrl: |
+      0      1      2     3      4      5      6      7      8     9      0     \u{1F} =
+             \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+             \u{1}  \u{13} \u{4} \u{6}  \u{7}  \u{8}  \u{A}  \u{B} \u{C} ;      '      \u{1C}
+      `      \u{1A} \u{18} \u{3} \u{16} \u{2}  \u{E}  \u{D}  ,     .     /
+    cmd: |
+      § 1 2 3 4 5 6 7 8 9 0 + ´
+        q w e r t y u i o p å ¨
+        a s d f g h j k l ö ä '
+      < z x c v b n m , . -
+    cmd+shift: |
+      ° ! " # € % & / ( ) = ? `
+        Q W E R T Y U I O P Å ˆ
+        A S D F G H J K L Ö Ä *
+      > Z X C V B N M ; : _
+    cmd+alt: |
+      € © ™ £ € § \u{0} | [ ] ≈ ± `
+        • , é \u{0} ŧ µ ü ı œ þ ˙ ˜
+        ¯ ß ð ƒ \u{0} ħ ˝ ª ł ö ä '
+      ≤ ÷ đ ¸ ‹ › ‘ ’ ‚ … –
+transforms:
+  '-':
+    ' ': '-'
+    b: ƀ
+    d: đ
+    D: Đ
+    g: ǥ
+    G: Ǥ
+    h: ħ
+    H: Ħ
+    i: ɨ
+    I: Ɨ
+    l: ł
+    L: Ł
+    o: ɵ
+    O: Ɵ
+    t: ŧ
+    T: Ŧ
+    u: ʉ
+    z: ƶ
+    Z: Ƶ
+  ',':
+    ' ': ','
+    s: ș
+    S: Ș
+    t: ț
+    T: Ț
+  ´:
+    ' ': ´
+    a: á
+    A: Á
+    c: ć
+    C: Ć
+    e: é
+    E: É
+    g: ǵ
+    G: Ǵ
+    i: í
+    I: Í
+    k: ḱ
+    K: Ḱ
+    l: ĺ
+    L: Ĺ
+    m: ḿ
+    M: Ḿ
+    'n': ń
+    'N': Ń
+    o: ó
+    O: Ó
+    p: ṕ
+    P: Ṕ
+    r: ŕ
+    R: Ŕ
+    s: ś
+    S: Ś
+    u: ú
+    U: Ú
+    v: ǘ
+    V: Ǘ
+    w: ẃ
+    W: Ẃ
+    'y': ý
+    'Y': Ý
+    z: ź
+    Z: Ź
+    å: ǻ
+    Å: Ǻ
+    æ: ǽ
+    Æ: Ǽ
+    ø: ǿ
+    Ø: Ǿ
+  ˜:
+    ' ': '~'
+    a: ã
+    A: Ã
+    e: ẽ
+    E: Ẽ
+    i: ĩ
+    I: Ĩ
+    'n': ñ
+    'N': Ñ
+    o: õ
+    O: Õ
+    u: ũ
+    U: Ũ
+    v: ṽ
+    V: Ṽ
+    'y': ỹ
+    'Y': Ỹ
+  ˙:
+    ' ': ˙
+    a: ȧ
+    A: Ȧ
+    b: ḃ
+    B: Ḃ
+    c: ċ
+    C: Ċ
+    d: ḋ
+    D: Ḋ
+    e: ė
+    E: Ė
+    f: ḟ
+    F: Ḟ
+    g: ġ
+    G: Ġ
+    h: ḣ
+    H: Ḣ
+    i: ı
+    I: İ
+    m: ṁ
+    M: Ṁ
+    'n': ṅ
+    'N': Ṅ
+    o: ȯ
+    O: Ȯ
+    p: ṗ
+    P: Ṗ
+    r: ṙ
+    R: Ṙ
+    s: ṡ
+    S: Ṡ
+    t: ṫ
+    T: Ṫ
+    w: ẇ
+    W: Ẇ
+    x: ẋ
+    X: Ẋ
+    'y': ẏ
+    'Y': Ẏ
+    z: ż
+    Z: Ż
+  ¨:
+    ' ': ¨
+    a: ä
+    A: Ä
+    e: ë
+    E: Ë
+    h: ḧ
+    H: Ḧ
+    i: ï
+    I: Ï
+    o: ö
+    O: Ö
+    t: ẗ
+    T: 'T\u{308}'
+    u: ü
+    U: Ü
+    w: ẅ
+    W: Ẅ
+    x: ẍ
+    X: Ẍ
+    'y': ÿ
+    'Y': Ÿ
+  ˚:
+    ' ': ˚
+    a: å
+    A: Å
+    e: 'e\u{30A}'
+    E: 'E\u{30A}'
+    o: 'o\u{30A}'
+    O: 'O\u{30A}'
+    u: ů
+    U: Ů
+    w: ẘ
+    W: 'W\u{30A}'
+    'y': ẙ
+    'Y': 'Y\u{30A}'
+  ˝:
+    ' ': ˝
+    o: ő
+    O: Ő
+    u: ű
+    U: Ű
+  ¸:
+    ' ': ¸
+    c: ç
+    C: Ç
+    d: ḑ
+    D: Ḑ
+    e: ȩ
+    E: Ȩ
+    g: ģ
+    G: Ģ
+    h: ḩ
+    H: Ḩ
+    k: ķ
+    K: Ķ
+    l: ļ
+    L: Ļ
+    'n': ņ
+    'N': Ņ
+    r: ŗ
+    R: Ŗ
+    s: ş
+    S: Ş
+    t: ţ
+    T: Ţ
+    z: 'z\u{327}'
+    Z: 'Z\u{327}'
+  ˛:
+    ' ': ˛
+    a: ą
+    A: Ą
+    e: ę
+    E: Ę
+    i: į
+    I: Į
+    o: ǫ
+    O: Ǫ
+    u: ų
+    U: Ų
+  ˇ:
+    ' ': ˇ
+    a: ǎ
+    A: Ǎ
+    c: č
+    C: Č
+    d: ď
+    D: Ď
+    e: ě
+    E: Ě
+    g: ǧ
+    G: Ǧ
+    h: ȟ
+    H: Ȟ
+    i: ǐ
+    I: Ǐ
+    j: ǰ
+    J: 'J\u{30C}'
+    k: ǩ
+    K: Ǩ
+    l: ľ
+    L: Ľ
+    'n': ň
+    'N': Ň
+    o: ǒ
+    O: Ǒ
+    r: ř
+    R: Ř
+    s: š
+    S: Š
+    t: ť
+    T: Ť
+    u: ǔ
+    U: Ǔ
+    v: ǚ
+    V: Ǚ
+    z: ž
+    Z: Ž
+    ʒ: ǯ
+    Ʒ: Ǯ
+  ˀ:
+    ' ': ˀ
+    a: ả
+    A: Ả
+    e: ẻ
+    E: Ẻ
+    i: ỉ
+    I: Ỉ
+    o: ỏ
+    O: Ỏ
+    u: ủ
+    U: Ủ
+    'y': ỷ
+    'Y': Ỷ
+  ʼ:
+    ' ': ʼ
+    o: ơ
+    O: Ơ
+    u: ư
+    U: Ư
+space:
+  mac:
+    caps: '\u{A0}'
+    alt: '\u{A0}'
+    alt+shift: '\u{A0}'
+    caps+alt: '\u{A0}'
+    cmd+alt: '\u{A0}'
+deadKeys:
+  mac:
+    alt: ['-', ˇ, ˚, ˛, ˜, ´, ¨]
+    caps+alt: ['-', ʼ, ˀ, ˇ, ˙, ˚, ˛, ˜, ˝, ´]
+    cmd+alt: [',', ¸, ˙, ˜, ˝]
