@@ -52,6 +52,7 @@ jobs:
         export TARGET_BUNDLE_NAME=$(yq r sms.kbdgen/targets/mac.yaml bundleName)
         export TARGET_VERSION=$(yq r sms.kbdgen/targets/mac.yaml version)
 
+        spctl -a -vvv -t exec kbdgen
         kbdgen build mac -R --ci -o output .
     - name: Upload mac pkg
       uses: actions/upload-artifact@v2
