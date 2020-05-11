@@ -44,7 +44,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Setup Divvun CI
-      uses: divvun/actions/setup@5e407bf8f794dfe805d78afcb348a5cb871d1e26
+      uses: divvun/actions/setup@master
       with:
         key: ${{ secrets.DIVVUN_KEY }}
     - name: run kbdgen
