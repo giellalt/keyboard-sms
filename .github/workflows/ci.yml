@@ -35,3 +35,28 @@ jobs:
       with:
         name: windows-klc
         path: 'output'
+
+  macos:
+    runs-on: macos-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Setup Divvun CI
+      uses: divvun/actions/setup@master
+      with:
+        key: ${{ secrets.DIVVUN_KEY }}
+    - name: run kbdgen
+      run: |
+        set -e
+
+        brew install imagemagick yq
+
+        export TARGET_BUNDLE_NAME=$(yq r targets/mac.yaml bundleName)
+        export TARGET_VERSION=$(yq r targets/mac.yaml version)
+
+        kbdgen build mac -R --ci -o output .
+    - name: Upload mac pkg
+      uses: actions/upload-artifact@v2
+      with:
+        name: mac-pkg
+        path: 'output'
