@@ -29,7 +29,7 @@ jobs:
 
         Write-Output "everything is actually okay"
 
-        ./kbdgen.exe --logging trace build win -R --ci -o output .
+        kbdgen --logging trace build win -R --ci -o output .
 
         Write-Output "thanks"
     - name: Upload windows klc
