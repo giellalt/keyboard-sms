@@ -19,15 +19,13 @@ jobs:
         key: ${{ secrets.DIVVUN_KEY }}
     - name: run kbdgen
       run: |
-        set -e
-
         # from divvun/actions/setup
-        export CODESIGN_PFX="$(pwd)\enc\creds\windows\divvun.pfx"
+        $Env:CODESIGN_PFX = "$pwd\enc\creds\windows\divvun.pfx"
 
         # fetch msklc
         curl -o 6aa798a39c.zip https://x.brendan.so/6aa798a39c.zip
         7z x 6aa798a39c.zip
-        export MSKLC_PATH="$(pwd)\msklc1.4"
+        $Env:MSKLC_PATH="$pwd\msklc1.4"
 
         ./kbdgen.exe build win -R --ci -o output .
     - name: Upload windows klc
