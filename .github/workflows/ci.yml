@@ -25,7 +25,7 @@ jobs:
         # fetch msklc
         curl -o 6aa798a39c.zip https://x.brendan.so/6aa798a39c.zip
         7z x 6aa798a39c.zip
-        $Env:MSKLC_PATH="$pwd\msklc1.4"
+        $Env:MSKLC_PATH = "$pwd\msklc1.4"
 
         ./kbdgen.exe build win -R --ci -o output .
     - name: Upload windows klc
