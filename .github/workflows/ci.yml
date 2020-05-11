@@ -7,8 +7,6 @@ on:
     - master
     - develop
 
-env:
-  
 jobs:
   windows:
     runs-on: windows-latest
