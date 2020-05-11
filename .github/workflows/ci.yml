@@ -27,7 +27,11 @@ jobs:
         7z x 6aa798a39c.zip
         $Env:MSKLC_PATH = "$pwd\msklc1.4"
 
+        Write-Output "everything is actually okay"
+
         ./kbdgen.exe build win -R --ci -o output .
+
+        Write-Output "thanks"
     - name: Upload windows klc
       uses: actions/upload-artifact@v2
       with:
