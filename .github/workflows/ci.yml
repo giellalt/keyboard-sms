@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+    - master
+    - develop
+
+env:
+  
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Setup Divvun CI
+      uses: divvun/actions/setup@master
+      with:
+        key: ${{ secrets.DIVVUN_KEY }}
+    - name: run kbdgen
+      run: |
+        set -e
+
+        # from divvun/actions/setup
+        export CODESIGN_PFX="$(pwd)\enc\creds\windows\divvun.pfx"
+
+        # fetch msklc
+        curl -o 6aa798a39c.zip https://x.brendan.so/6aa798a39c.zip
+        7z x 6aa798a39c.zip
+        export MSKLC_PATH="$(pwd)\msklc1.4"
+
+        ./kbdgen.exe build win -R --ci -o output .
+    - name: Upload windows klc
+      uses: actions/upload-artifact@v2
+      with:
+        name: windows-klc
+        path: 'output'
