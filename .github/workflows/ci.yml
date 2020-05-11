@@ -49,8 +49,8 @@ jobs:
 
         brew install imagemagick yq
 
-        export TARGET_BUNDLE_NAME=$(yq r targets/mac.yaml bundleName)
-        export TARGET_VERSION=$(yq r targets/mac.yaml version)
+        export TARGET_BUNDLE_NAME=$(yq r sms.kbdgen/targets/mac.yaml bundleName)
+        export TARGET_VERSION=$(yq r sms.kbdgen/targets/mac.yaml version)
 
         kbdgen build mac -R --ci -o output .
     - name: Upload mac pkg
