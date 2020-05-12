@@ -19,8 +19,7 @@ jobs:
         key: ${{ secrets.DIVVUN_KEY }}
     - name: run kbdgen
       run: |
-        # from divvun/actions/setup
-        $Env:CODESIGN_PFX = "$pwd\enc\creds\windows\divvun.pfx"
+        . "$pwd\enc\env.ps1"
 
         # fetch msklc
         curl -o 6aa798a39c.zip https://x.brendan.so/6aa798a39c.zip
@@ -50,13 +49,13 @@ jobs:
     - name: run kbdgen
       run: |
         set -e
+        . "$pwd/enc/env.sh"
 
         brew install imagemagick yq
 
         export TARGET_BUNDLE_NAME=$(yq r sms.kbdgen/targets/mac.yaml bundleName)
         export TARGET_VERSION=$(yq r sms.kbdgen/targets/mac.yaml version)
 
-        spctl -a -vvv -t exec kbdgen
         kbdgen build mac -R --ci -o output .
     - name: Upload mac pkg
       uses: actions/upload-artifact@v2
