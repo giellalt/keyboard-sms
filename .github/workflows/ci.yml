@@ -19,7 +19,7 @@ jobs:
         key: ${{ secrets.DIVVUN_KEY }}
     - name: run kbdgen
       run: |
-        . "$pwd\enc\env.ps1"
+        . "$DIVVUN_CI_CONFIG\enc\env.ps1"
 
         # fetch msklc
         curl -o 6aa798a39c.zip https://x.brendan.so/6aa798a39c.zip
@@ -49,7 +49,7 @@ jobs:
     - name: run kbdgen
       run: |
         set -e
-        . "$pwd/enc/env.sh"
+        . "$DIVVUN_CI_CONFIG/enc/env.sh"
 
         brew install imagemagick yq
 
