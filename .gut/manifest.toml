@@ -1,0 +1,11 @@
+[package]
+name = "sms"
+
+[bundles.keyboard_win]
+package = "keyboard-sms"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.keyboard_macos]
+package = "keyboard-sms"
+repo = "https://pahkat.uit.no/main/"
+
