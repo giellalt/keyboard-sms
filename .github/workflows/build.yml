@@ -18,7 +18,15 @@ jobs:
             os: macos-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Check if bundle should be built
+        id: bundleCheck
+        uses: divvun/actions/speller/check@kbdgen
+        with:
+          bundleType: ${{ matrix.type }}
+          manifest: ".gut/manifest.toml"
+
       - name: Setup Divvun CI
+        if: steps.bundleCheck.outputs.bundleExists == 'true'
         uses: divvun/actions/setup@kbdgen
         with:
           key: ${{ secrets.DIVVUN_KEY }}
@@ -30,31 +38,31 @@ jobs:
       #     restore-keys: |
       #       ${{ runner.os }}-gradle-
       - name: Install Rust toolchain
-        if: matrix.type == 'keyboard_ios' || matrix.type == 'keyboard_android'
+        if: steps.bundleCheck.outputs.bundleExists == 'true' && (matrix.type == 'keyboard_ios' || matrix.type == 'keyboard_android')
         uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
           profile: minimal
           override: true
       - name: Install Dependencies MacOS
-        if: matrix.type == 'keyboard_macos'
+        if: steps.bundleCheck.outputs.bundleExists == 'true' && matrix.type == 'keyboard_macos'
         run: |
           brew install imagemagick
       - name: Install Dependencies IOS
-        if: matrix.type == 'keyboard_ios'
+        if: steps.bundleCheck.outputs.bundleExists == 'true' && matrix.type == 'keyboard_ios'
         run: |
           rustup target add aarch64-apple-ios
           rustup target add x86_64-apple-ios
           brew install imagemagick
           cargo install cargo-lipo
       - name: Install Dependencies Android
-        if: matrix.type == 'keyboard_android'
+        if: steps.bundleCheck.outputs.bundleExists == 'true' && matrix.type == 'keyboard_android'
         run: |
           rustup target add aarch64-linux-android
           rustup target add armv7-linux-androideabi
           cargo install cargo-ndk
       - name: Install Dependencies Windows
-        if: matrix.type == 'keyboard_win'
+        if: steps.bundleCheck.outputs.bundleExists == 'true' &&matrix.type == 'keyboard_win'
         shell: bash
         run: |
           curl -o 6aa798a39c.zip https://x.brendan.so/6aa798a39c.zip
@@ -73,12 +81,12 @@ jobs:
           name: installer
           path: "${{ steps.bundler.outputs.bundle }}"
       - name: Publish IOS
-        if: matrix.type == 'keyboard_ios' && steps.bundler.outputs.bundle != null #&& github.ref == 'refs/heads/master'
+        if: matrix.type == 'keyboard_ios' && steps.bundler.outputs.bundle != null && github.ref == 'refs/heads/master'
         run: |
           source "$DIVVUN_CI_CONFIG/enc/env.sh"
           fastlane pilot upload --skip_submission --skip_waiting_for_build_processing --ipa output/ios-build/ipa/HostingApp.ipa
       - name: Publish Android
-        if: matrix.type == 'keyboard_android' && steps.bundler.outputs.bundle != null #&& github.ref == 'refs/heads/master'
+        if: matrix.type == 'keyboard_android' && steps.bundler.outputs.bundle != null && github.ref == 'refs/heads/master'
         run: |
           source "$DIVVUN_CI_CONFIG/enc/env.sh"
           cd output/deps/giella-ime
