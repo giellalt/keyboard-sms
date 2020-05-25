@@ -658,11 +658,11 @@ space:
 targets:
   ios:
     legacyName: skolt_sami_keyboard
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sms
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sms?channel=nightly&platform=mobile
     spellerPath: sms.bhfst
   android:
     legacyName: skolt_sami_keyboard
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sms
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sms?channel=nightly&platform=mobile
     spellerPath: sms.bhfst
   win:
     locale: sms-Latn-FI
