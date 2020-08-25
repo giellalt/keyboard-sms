@@ -3,5 +3,5 @@ provisioningProfileId: Test
 packageId: no.uit.giella.keyboards.sms
 bundleName: Skolt Sami Keyboards
 icon: images/sms-keyboard-menu-icon.png
-version: 1.0.1
+version: 1.0.4
 build: 1
