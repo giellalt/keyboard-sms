@@ -218,6 +218,15 @@ modes:
         Á Š Đ Ǥ Ǧ Ȟ ˜ Ǩ     \u{0} Ö     Æ     *
       > ≥ X Ç « » Ŋ µ \u{0} \u{0} \u{0}
 
+styles:
+  tablet:
+    enter:  [4, "right", "fill"]
+    shift: [3, "both", "fill"]
+    backspace: [1, "right", "fill"]
+  mobile:
+    shift: [4, "left", "fill"]
+    backspace: [4, "right", "fill"]
+
 longpress:
   A: Á Å Â Ä Æ
   Â: Q
