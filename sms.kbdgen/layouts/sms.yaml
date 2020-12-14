@@ -666,12 +666,14 @@ targets:
     spellerPath: sms.bhfst
     styles:
       tablet:
-        enter:  [4, "right", "fill"]
-        shift: [3, "both", "fill"]
-        backspace: [1, "right", "fill"]
-      mobile:
-        shift: [4, "left", "fill"]
-        backspace: [4, "right", "fill"]
+        actions:
+          enter:  [4, "right", "fill"]
+          shift: [4, "left", "fill"]
+          backspace: [1, "right", "fill"]
+      phone:
+        actions:
+          shift: [4, "left", "fill"]
+          backspace: [4, "right", "fill"]
   win:
     locale: sms-Latn-FI
     id: smswi
