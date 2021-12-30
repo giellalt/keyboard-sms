@@ -10,24 +10,8 @@
 
 ## Nuõrttsääʹmǩiõll (macOS)
 
-__sms_macos.svg__
-
 ![Alt text](sms_macos.svg)
-
-----
-
-__sms_macos\_gg.svg__
-
-![Alt text](sms_macos_gg.svg)
 
 ## Nuõrttsääʹmǩiõll (Windows)
 
-__sms_win.svg__
-
 ![Alt text](sms_win.svg)
-
-----
-
-__sms_win\_gg.svg__
-
-![Alt text](sms_win_gg.svg)
