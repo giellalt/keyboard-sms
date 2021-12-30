@@ -60,7 +60,7 @@ Letter | Keypress
 # Other information
 
 Some work has been done to get statistics for a good sms keyboard
-layout: [sms-forarbeid.txt](sms-forarbeid.txt) (plain text).
+layout: [sms-forarbeid](sms-forarbeid.md).
 
 # Skolt Sami Keyboard by Tim Feist
 
