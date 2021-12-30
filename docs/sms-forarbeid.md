@@ -138,6 +138,6 @@ Bokstavfrekvens i grupper:
 
 Gruppe | Bokstavar
 ------:|:---------
-10000+ | e t i u m a ä ´ l õ s d  
- 1000+ | j n v â r k o ǩ š p z å ž g b c đ ǧ h  
-    1+ | ǥ č ǯ ’ ʹ ˊ ʒ ' ŋ f á ö y w q 
+10000+ | `e t i u m a ä ´ l õ s d`
+ 1000+ | `j n v â r k o ǩ š p z å ž g b c đ ǧ h`
+    1+ | `ǥ č ǯ ’ ʹ ˊ ʒ ' ŋ f á ö y w q`
