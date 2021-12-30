@@ -1,3 +1,5 @@
+# Tim Feist keyboard layout
+
 There is an existing Skolt Sami keyboard for Windows and macOS made by Timothy
 Feist, with the following layout:
 
@@ -5,25 +7,25 @@ Feist, with the following layout:
 Normal:
 
 
-[TimFeistSMS/Skolt.jpg]
+![TimFeistSMS/Skolt.jpg](TimFeistSMS/Skolt.jpg)
 
 
 Shift:
 
 
-[TimFeistSMS/SkoltShft.jpg]
+![TimFeistSMS/SkoltShft.jpg](TimFeistSMS/SkoltShft.jpg)
 
 
 AltGr:
 
 
-[TimFeistSMS/SkoltAltGr.jpg]
+![TimFeistSMS/SkoltAltGr.jpg](TimFeistSMS/SkoltAltGr.jpg)
 
 
 AltGr+Shift:
 
 
-[TimFeistSMS/SkoltShftAltGr.jpg]
+![TimFeistSMS/SkoltShftAltGr.jpg](TimFeistSMS/SkoltShftAltGr.jpg)
 
 
 The keyboard was initially made for his own personal use, but is now also used
