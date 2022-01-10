@@ -8,10 +8,10 @@
 |**Deadkey** | green   | orange       | pink                    | green                    |
 
 
-## Nuõrttsääʹmǩiõll (macOS)
+# Nuõrttsääʹmǩiõll (macOS)
 
 ![Alt text](sms_macos.svg)
 
-## Nuõrttsääʹmǩiõll (Windows)
+# Nuõrttsääʹmǩiõll (Windows)
 
 ![Alt text](sms_win.svg)
