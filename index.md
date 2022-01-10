@@ -5,7 +5,7 @@
 
 -   [Layout overview](layout.html)
 
-## Installation
+# Installation
 
 Please use the Divvun Manager to install all available tools for Skolt Sámi.
 It can be found on [divvun.no](https://divvun.no) and [divvun.org](https://divvun.org).
@@ -15,7 +15,7 @@ It can be found on [divvun.no](https://divvun.no) and [divvun.org](https://divvu
 Below is a list of added or moved characters - changes made to the
 keyboard layout compared to the standard extended Finnish keyboard.
 
-## Skolt Sámi letters
+# Skolt Sámi letters
 
 The following characters are specific to Skolt Sámi, and are entered as
 described:
@@ -38,7 +38,7 @@ Skolt Sámi letter | Key to press
 **Č**                 | X key on the keyboard (B02)
 **Ž**                 | < key on the keyboard (B00)
 
-## Finnish and other standard letters
+# Finnish and other standard letters
 
 The following characters on the standard Finnish keyboard have been
 *moved* and are now available on these new locations:
