@@ -24,6 +24,18 @@ android:
         Â Š E R T Y U I O P Å
         A S D F G H J K L Õ Ä
         \s{shift} Ž Z Č C V B N M \s{backspace}
+  tablet-600:
+    layers:
+      default: |
+        ʼ w ǩ ǥ ǧ ŋ đ ǯ ʒ ö ʹ
+        â š e r t y u i o p å
+        a s d f g h j k l õ ä
+        \s{shift} ž z č c v b n m \s{backspace}
+      shift: |
+        ʼ W Ǩ Ǥ Ǧ Ŋ Đ Ǯ Ʒ Ö ʹ
+        Â Š E R T Y U I O P Å
+        A S D F G H J K L Õ Ä
+        \s{shift} Ž Z Č C V B N M \s{backspace}
 iOS:
   config:
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sms?channel=nightly&platform=mobile
@@ -657,7 +669,7 @@ longpress:
   ʹ: ˈ
   ʼ: ˈ
   '%': ‰ ∞
-  =: ≠ ≈
+  '=': ≠ ≈
   '-': • – —
   '&': §
   '?': ¿
