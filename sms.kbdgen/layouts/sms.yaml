@@ -679,5 +679,5 @@ longpress:
   "'": ʹ ʼ ‚ ‘ ’
 keyNames:
   space: kõskk
-  return: riâdd\u00ADvaajtõs
+  return: "riâdd\u00ADvaajtõs"
 
