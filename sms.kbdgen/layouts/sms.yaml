@@ -65,35 +65,35 @@ iOS:
   iPad-9in:
     layers:
       default: |
-        ʼ                  @ ǩ ǥ ǧ ŋ đ [ ] | ʹ ʒ  \s{backspace}
-        \s{spacer:0.5}   â š e r t y u i o p å ǯ  \s{spacer:0.5}
-        \s{shift}        a s d f g h j k l õ ä    \s{shift}
-        \s{spacer:0.5}   ž z č c v b n m , .      \s{return:2.5}
+        ʼ                  @ ǩ ǥ ǧ ŋ đ / ǯ ʒ ʹ  \s{backspace}
+        \s{spacer:0.3}   â š e r t y u i o p å  \s{spacer:0.7}
+        \s{spacer:0.6}   a s d f g h j k l õ    \s{return:1.4}
+        \s{shift}          ž z č c v b n m ä    \s{shift:2}
       shift: |
-        ʼ                  " Ǩ Ǥ Ǧ Ŋ Đ ( ) / ʹ Ʒ  \s{backspace}
-        \s{spacer:0.5}   Â Š E R T Y U I O P Å Ǯ  \s{spacer:0.5}
-        \s{shift}        A S D F G H J K L Õ Ä    \s{shift}
-        \s{spacer:0.5}   Ž Z Č C V B N M ! ?      \s{return:2.5}
+        ʼ                  " Ǩ Ǥ Ǧ Ŋ Đ / Ǯ Ʒ ʹ  \s{backspace}
+        \s{spacer:0.3}   Â Š E R T Y U I O P Å  \s{spacer:0.7}
+        \s{spacer:0.6}   A S D F G H J K L Õ    \s{return:1.4}
+        \s{shift}          Ž Z Č C V B N M Ä    \s{shift:2}
       alt: |
-        1                  2 3 4 5 6 7 8 9 0 ~ +  \s{backspace}
-        \s{spacer:0.5}   q w £ € ∞ § | ‹ › ≈ ´ ˚  \s{spacer:0.5}
-        \s{shift}        @ # € & * ( ) ' " ö •    \s{shift}
-        \s{spacer:0.5}   < _ x - = / ; : ! ?      \s{return:2.5}
+        1                  2 3 4 5 6 7 8 9 0 +  \s{backspace}
+        \s{spacer:0.3}   q w £ € ∞ § | ‹ › ≈ ´  \s{spacer:0.7}
+        \s{spacer:0.6}   @ # € & * ( ) ' " ö    \s{return:1.4}
+        \s{shift}          < _ x - = , . ! ?    \s{shift:2}
       alt+shift: |
-        °                  ” # € % & / { } ¿ ¡ =  \s{backspace}
-        \s{spacer:0.5}   Q W ® ¢ ‰ ¶ \ « » ≠ ´ ^  \s{spacer:0.5}
-        \s{shift}        $ £ ¥ ^ [ ] { } — Ö …    \s{shift}
-        \s{spacer:0.5}   > § X ~ ≠ \ ‚ „ ! ?      \s{return:2.5}
+        °                  ” # € % & / { } = `  \s{backspace}
+        \s{spacer:0.3}   Q W ® ¢ ‰ ¶ \ « » ≠ ´  \s{spacer:0.7}
+        \s{spacer:0.6}   $ £ ¥ ^ [ ] { } — Ö    \s{return:1.4}
+        \s{shift}          > § X ~ ≠ ; : ! ?    \s{shift:2}
       symbols-1: |
-        1                  2 3 4 5 6 7 8 9 0 ` ±  \s{backspace}
-        \s{spacer:0.5}   © ™ £ € ∞ § | ‹ › ≈ ´ ˚  \s{spacer:0.5}
-        \s{shiftSymbols} @ # € & * ( ) ' " ° •    \s{shiftSymbols}
-        \s{spacer:0.5}   < % _ - = / ; : , .      \s{return:2.5}
+        1                  2 3 4 5 6 7 8 9 0 ±  \s{backspace}
+        \s{spacer:0.3}   © ™ £ € ∞ § | ‹ › ≈ ˚  \s{spacer:0.7}
+        \s{spacer:0.6}   @ # € & * ( ) ' " •    \s{return:1.4}
+        \s{shiftSymbols}   < % _ - = ; : , .    \s{shiftSymbols:2}
       symbols-2: |
-        1                  2 3 4 5 6 7 8 9 0 ` ¿  \s{backspace}
-        \s{spacer:0.5}   ¡ ® ¥ ¢ ‰ ¶ \ « » ≠ ´ ^  \s{spacer:0.5}
-        \s{shiftSymbols} $ £ ¥ ^ [ ] { } — ° …    \s{shiftSymbols}
-        \s{spacer:0.5}   > § | ~ ≠ \ ‚ „ ! ?      \s{return:2.5}
+        1                  2 3 4 5 6 7 8 9 0 ¿  \s{backspace}
+        \s{spacer:0.3}   ® — ¥ ¢ ‰ ¶ \ « » ≠ ¡  \s{spacer:0.7}
+        \s{spacer:0.5}   $ £ ¥ ^ [ ] { } ‟ °    \s{return:1.4}
+        \s{shiftSymbols}   > § … ~ ≠ ‚ „ ! ?    \s{shiftSymbols:2}
   iPad-12in:
     layers:
       default: |
