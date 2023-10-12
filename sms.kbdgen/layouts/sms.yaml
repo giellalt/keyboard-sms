@@ -70,20 +70,20 @@ iOS:
         \s{spacer:0.6}   a s d f g h j k l õ    \s{return:1.4}
         \s{shift}          ž z č c v b n m ä    \s{shift:2}
       shift: |
-        ʼ                  " Ǩ Ǥ Ǧ Ŋ Đ Ö Ǯ Ʒ ʹ  \s{backspace}
+        ʼ                  @ Ǩ Ǥ Ǧ Ŋ Đ Ö Ǯ Ʒ ʹ  \s{backspace}
         \s{spacer:0.3}   Â Š E R T Y U I O P Å  \s{spacer:0.7}
         \s{spacer:0.6}   A S D F G H J K L Õ    \s{return:1.4}
         \s{shift}          Ž Z Č C V B N M Ä    \s{shift:2}
       alt: |
         1                  2 3 4 5 6 7 8 9 0 +  \s{backspace}
-        \s{spacer:0.3}   q w £ € ∞ § | ‹ › ≈ ´  \s{spacer:0.7}
-        \s{spacer:0.6}   @ # € & * ( ) ' " ˈ    \s{return:1.4}
-        \s{shift}          < _ x - = , . ! ?    \s{shift:2}
+        \s{spacer:0.3}   q w £ ¢ ‰ § / « » ≠ ´  \s{spacer:0.7}
+        \s{spacer:0.6}   $ # € & * ( ) ' " ˈ    \s{return:1.4}
+        \s{shift}          % _ x - = , . ! ?    \s{shift:2}
       alt+shift: |
-        °                  ” # € % & / { } = `  \s{backspace}
-        \s{spacer:0.3}   Q W ® ¢ ‰ ¶ \ « » ≠ ´  \s{spacer:0.7}
-        \s{spacer:0.6}   $ £ ¥ ^ [ ] { } — –    \s{return:1.4}
-        \s{shift}          > § X ~ ≠ ; : ! ?    \s{shift:2}
+        1                  2 3 4 5 6 7 8 9 0 +  \s{backspace}
+        \s{spacer:0.3}   Q W £ ¢ ‰ § / « » ≠ ´  \s{spacer:0.7}
+        \s{spacer:0.6}   $ # € & * ( ) ' " ˈ    \s{return:1.4}
+        \s{shift}          % _ X - = , . ! ?    \s{shift:2}
       symbols-1: |
         1                  2 3 4 5 6 7 8 9 0 ±  \s{backspace}
         \s{spacer:0.3}   © ™ £ € ∞ § | ‹ › ≈ ˚  \s{spacer:0.7}
