@@ -65,12 +65,12 @@ iOS:
   iPad-9in:
     layers:
       default: |
-        ʼ                  @ ǩ ǥ ǧ ŋ đ ö ǯ ʒ ʹ  \s{backspace}
+        ʼ                  @ ǩ ǥ ǧ ŋ đ ǯ ʒ ö ʹ  \s{backspace}
         \s{spacer:0.3}   â š e r t y u i o p å  \s{spacer:0.7}
         \s{spacer:0.6}   a s d f g h j k l õ    \s{return:1.4}
         \s{shift}          ž z č c v b n m ä    \s{shift:2}
       shift: |
-        ʼ                  @ Ǩ Ǥ Ǧ Ŋ Đ Ö Ǯ Ʒ ʹ  \s{backspace}
+        ʼ                  @ Ǩ Ǥ Ǧ Ŋ Đ Ǯ Ʒ Ö ʹ  \s{backspace}
         \s{spacer:0.3}   Â Š E R T Y U I O P Å  \s{spacer:0.7}
         \s{spacer:0.6}   A S D F G H J K L Õ    \s{return:1.4}
         \s{shift}          Ž Z Č C V B N M Ä    \s{shift:2}
