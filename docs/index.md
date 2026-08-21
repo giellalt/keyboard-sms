@@ -2,7 +2,7 @@
 
 ## Layouts
 
-<iframe src="https://keyboard.giellalt.org/embed?kbd=sms&interactive=false"></iframe>
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sms&interactive=false" style="height: 430px;"></iframe>
 
 ## Other information
 
